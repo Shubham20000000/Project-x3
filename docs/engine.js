@@ -10,7 +10,7 @@ export const templates=[
 export const today=(now=new Date())=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);
 export function addDate(date,n){const d=new Date(date+'T12:00:00Z');d.setUTCDate(d.getUTCDate()+n);return d.toISOString().slice(0,10)}
 export function dayNumber(start,date=today()){return Math.floor((new Date(date+'T12:00:00Z')-new Date(start+'T12:00:00Z'))/86400000)+1}
-export function initial(date=today()){return {version:VERSION,player:{name:'Player',start:date,minutes:90,target:'General Business Analyst'},events:{},missions:{},days:{},closed:{},penalty:null,raids:{},inventory:[],activeShadows:[],lastSeen:date}}
+export function initial(date=today()){return {version:VERSION,player:{name:'Player',start:date,minutes:180,target:'General Business Analyst'},events:{},missions:{},days:{},closed:{},penalty:null,raids:{},inventory:[],activeShadows:[],lastSeen:date}}
 export function threshold(level){return 50*(level-1)*(level+2)}
 export function progression(xp){xp=Math.max(0,xp);const level=Math.floor((Math.sqrt(9+0.08*xp)-1)/2);const floor=threshold(level),ceiling=threshold(level+1);return {level,rank:level>=21?'S':level>=17?'A':level>=13?'B':level>=9?'C':level>=5?'D':'E',current:xp-floor,required:ceiling-floor,next:ceiling,remaining:ceiling-xp,percent:Math.round(100*(xp-floor)/(ceiling-floor))}}
 export function totals(s){const stats=Object.fromEntries(STATS.map(k=>[k,10]));let xp=0,gold=0;for(const e of Object.values(s.events)){xp+=e.xp||0;gold+=e.gold||0;for(const k of STATS)stats[k]+=e.stats?.[k]||0}return {xp,gold,stats,...progression(xp)}}

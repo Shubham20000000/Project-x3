@@ -1,3 +1,4 @@
+import {competencyAreas,pcTools} from '../docs/professional.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {initial,progression,threshold,totals,award,completeMission,completeHabit,reconcile,fatigue,completeRecovery,clearRaid,buy,validateImport,templates,today} from '../docs/engine.js';
@@ -18,3 +19,6 @@ test('backup validation rejects corrupt ledger and accepts round-trip',()=>{cons
 test('backup validation rejects malformed player and day logs',()=>{const s=initial();s.player.name=42;assert.throws(()=>validateImport(s),/valid/);s.player.name='Player';s.days['2026-10-24']={habits:null,minutes:0};assert.throws(()=>validateImport(s),/logs/)});
 
 test('14 dungeons cover all 90 days exactly once and each unlocks a template',()=>{assert.equal(dungeons.length,14);const days=dungeons.flatMap(d=>Array.from({length:d.end-d.start+1},(_,i)=>d.start+i));assert.deepEqual(days,Array.from({length:90},(_,i)=>i+1));assert.equal(new Set(dungeons.map(d=>d.id)).size,14);assert.equal(new Set(dungeons.map(d=>d.shadow)).size,14)});
+
+test('professional curriculum has three substantive PC steps and an advanced extension every day',()=>{for(const d of curriculum){assert.equal(d.pcSteps.length,3);assert.ok(d.pcSteps.every(s=>s.length>30),`PC steps for day ${d.day}`);assert.ok(d.stretch.length>30);assert.ok(!/\b(SAP|ASDA|Blue Yonder|shipment|carrier|warehouse|dock)\b/i.test([d.task,d.acceptance,d.drill,...d.pcSteps].join(' ')),`General scope day ${d.day}`)}});
+test('competency atlas covers every day and the general PC tool bench is complete',()=>{assert.equal(competencyAreas.length,16);assert.equal(pcTools.length,10);const days=new Set(competencyAreas.flatMap(c=>c.days));for(let d=1;d<=90;d++)assert.ok(days.has(d),`Missing coverage day ${d}`);for(const t of pcTools)assert.ok(t.url.startsWith('https://')&&t.setup.length>50)});

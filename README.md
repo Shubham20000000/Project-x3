@@ -1,34 +1,36 @@
-# SYSTEM / Business Analyst Ascension
+# SYSTEM / General Professional Business Analyst Track
 
-An interactive 90-day Business Analyst learning app with 14 dungeons, three milestone reviews and animated vector graphics.
+A rigorous, general-purpose 90-day Business Analyst curriculum with practical PC labs, 14 dungeons, three evidence gates and animated RPG progression. No employment history or specialist industry access is assumed.
 
-## Features
+## Professional scope
 
-- Daily learning tasks, practical outputs, acceptance checks and speaking exercises.
-- Requirements, process modelling, Agile, Excel, SQL, Power BI, integrations, testing and change management.
-- XP, levels, ranks, stats, recovery tasks, virtual gold, reward inventory and reusable templates.
-- Animated portal artwork, rotating rune graphics, a dungeon map, reward particles and level-up effects.
-- A reduced-motion setting and support for the device's accessibility preference.
-- Synthetic practice data, SQL examples, an object schema, formulas and a complete system guide.
-- Local progress storage and JSON backup export/import.
+- 16 competency areas: foundations/governance; strategy/business architecture; financial/decision analysis; stakeholders/elicitation; requirements; process/visual modelling; UX/product discovery; Agile delivery; Excel/data quality/statistics; SQL/relational design; Power BI; systems/APIs/governance; Python/AI/automation; testing; change/release/benefits; communication/professional judgement.
+- 90 distinct assignments, each with tools, techniques, three PC steps, acceptance checks, speaking practice and an advanced extension.
+- A Skill Atlas maps topics to practice days and evidence. The PC Lab gives official tool/setup links, alternatives and downloadable fixtures.
+- Full-depth work is designed around 180 minutes/day. A smaller budget splits the same lab across sessions; it does not reduce its quality checks.
+- Practice uses fictional service-request, e-commerce, booking and portal scenarios.
 
-## Run locally
+## PC practice pack
+
+`docs/service_requests.csv`, `teams.csv`, `categories.csv`, `practice.sql`, `practice_checks.json` and `qa_starter.py` support reproducible Excel, SQL, BI and Python exercises. The fixture has 185 raw rows and 182 unique request IDs with deliberate quality anomalies.
+
+`PC_SETUP.md`, `COMPETENCY_MAP.md`, `roadmap.csv` and `SYSTEM_GUIDE.md` describe the complete professional programme. The Python starter uses only the standard library. External tool/account/licence availability varies; documented alternatives preserve the exercise outputs.
+
+## Run and verify
 
 ```sh
 python -m http.server 8080 --directory docs
 node --test tests/*.test.mjs
+node scripts/generate-content.mjs
+python docs/qa_starter.py
 ```
 
-No install, backend, API keys or sign-in is required. The website is a static app in the `docs` folder.
+The static website requires no framework install, backend, API key or sign-in. GitHub Pages publishes `main` / `docs`. Editable role labels do not personalise the curriculum.
 
-## GitHub Pages
+## Game mechanics
 
-In repository Settings → Pages, choose Deploy from a branch → main → /docs → Save. The `.nojekyll` file is included.
+Unique-key XP/gold ledger; progressive level curve; five attributes; HP/fatigue; daily habits; recovery reviews; virtual shop/inventory; shadow templates; motion/reduced-motion settings. All daily and raid rewards give a maximum 24,130 planned XP.
 
-## Progress and dates
+Progress stays in browser localStorage. Export/import JSON backups to transfer devices. Midnight checks use Asia/Kolkata and catch up on the next visit. A closed static page cannot run background jobs. Curriculum updates preserve completion history; revised artifact quality still needs review.
 
-Progress stays in this browser. Export a JSON backup to transfer it to another device. Midnight checks use Asia/Kolkata: checks run while the app is open and catch up on the next visit. The focus timer saves time when Log time is pressed. A closed static website cannot execute background jobs.
-
-The SQL schema is a reference for a future server database. No external accounts or automations are connected. All practice records are synthetic. Virtual rewards are not financial transactions.
-
-The curriculum is educational and does not confer a professional qualification or guarantee employment.
+The website tracks evidence but does not install or operate tools on the user's PC. All supplied records are fictional. Virtual shop actions are not real payments. The SQL schema is a future-backend reference. This programme is practice, not a qualification or guarantee of employment.

@@ -1,31 +1,72 @@
-# SYSTEM / Your 90-day Business Analyst ascension
+# SYSTEM / General professional Business Analyst roadmap
 
-A general-purpose Business Analyst learning plan. Default: 90 minutes/day. Fictional supply-chain examples provide a consistent practice setting for requirements, process, data, integration and testing techniques.
+General professional Business Analyst track 2.0. No prior employment, specialist system access or industry background is assumed. Fictional service-request, e-commerce and course-booking cases support practice from foundations through advanced analysis. Full-depth work is designed around 180 minutes/day. With a smaller budget, split the same lab across sessions rather than remove its acceptance checks. This is structured practice, not an automatic qualification or promise of mastery.
 
-Each day: 20 minutes learn → 50 minutes build → 10 minutes speak → 10 minutes review. The website scales this split to your saved daily budget. Lifestyle quests are separate. Weekly reviews consolidate rather than add a second project.
+## Structure and depth
 
-## Main Status Window wireframe
+Days 1–30: strategy, business cases, planning, elicitation, requirements, process/system/UX modelling and delivery approaches.
+Days 31–60: Agile delivery, spreadsheets/statistics, relational design, advanced SQL, BI, APIs, governance, Python/AI controls and test design.
+Days 61–90: UAT, release judgement, change, workflow automation, benefits, independent capstone and professional defence.
 
-| Left navigation | Main workspace |
+Full-depth rhythm: 40 minutes concepts → 100 minutes PC lab → 20 minutes explanation → 20 minutes review. Settings changes the timer allocation, not the quality standard.
+
+## Topic coverage
+
+| Area | Topics and techniques | Days | Required evidence |
+| --- | --- | --- | --- |
+| BA foundations & governance | BACCM; six BA knowledge areas; SDLC; BA planning and monitoring; WBS/estimation; RAID; governance; approvals; baselines; information management | 1, 2, 6, 7, 21, 29, 30 | Analysis plan, charter, RAID and decision log |
+| Strategy & business architecture | Problem framing; CATWOE; SMART; SWOT; PESTLE; Five Forces; Business Model Canvas; capability/value-chain mapping; target operating model; gap analysis | 2, 3, 5, 25, 71, 73, 79 | Strategy canvases, capability map and options recommendation |
+| Financial & decision analysis | Cost-benefit analysis; ROI; payback; NPV; scenario/sensitivity analysis; weighted decisions; RICE; WSJF; uncertainty and feasibility | 5, 20, 34, 38, 67, 73 | Transparent business-case model and sensitivity checks |
+| Stakeholders & elicitation | RACI; power-interest/onion maps; engagement; interviews; surveys; observation; document analysis; focus groups; workshops; brainstorming; affinity/mind maps; negotiation | 4, 8, 9, 10, 11, 12, 14, 72, 81 | Stakeholder register, elicitation plan and evidence log |
+| Requirements lifecycle & quality | Business/stakeholder/functional/non-functional/transition requirements; BRD/FRD/SRS; glossary; atomicity; ambiguity; FURPS+; rules; RTM; baselines; prioritisation; change impact | 15, 16, 17, 18, 19, 20, 21, 27, 74 | Versioned catalogue, specification and traceability matrix |
+| Process & visual modelling | SIPOC; value-stream mapping; swimlanes; BPMN events/gateways/pools/messages; UML use-case/activity/sequence/state; context/levelled DFD; CRUD; decision trees/tables; DMN concepts | 13, 18, 19, 22, 23, 24, 25, 28, 74 | Editable process, interaction, state and information-flow models |
+| UX & product discovery | Personas; empathy; jobs-to-be-done; journeys; service blueprint; information architecture; wireframes; prototypes; usability; accessibility; story maps; MVP and experiments | 12, 26, 27, 28, 34, 44, 76 | Prototype, task-based usability results and prioritised MVP |
+| Agile & delivery management | Waterfall/Scrum/Kanban/Lean/hybrid; accountabilities/events/artifacts; epics/stories/subtasks; INVEST; BDD; refinement; story points; planning poker; capacity; DoR/DoD; WIP/lead/cycle/throughput/CFD; JQL; releases | 27, 29, 31, 32, 33, 34, 35 | Linked backlog, sprint/release plan and flow review |
+| Excel, data quality & statistics | Grain; profiling; missingness/duplicates/types; validation; Power Query merge/append; XLOOKUP/INDEX-MATCH; SUMIFS/COUNTIFS/IF; dates; pivots; descriptive statistics; percentiles; sampling/outliers; correlation vs causation | 36, 37, 38, 39, 41, 44, 49, 55, 75 | Refreshable workbook with quality controls and reconciled KPIs |
+| SQL & relational design | ERD; normalisation; PK/FK/cardinality; SELECT/WHERE/NULL/CASE; joins; aggregation/HAVING; CTE/subquery/set operations; window functions; views; indexes/EXPLAIN; transactions/permissions; cohort/funnel reasoning | 39, 40, 41, 42, 43, 44, 45, 55, 75 | Reproducible SQL pack, model and quality assertions |
+| Power BI & decision reporting | ETL; star schema; facts/dimensions; relationship/date roles; DAX measures/context; CALCULATE/DIVIDE/time intelligence; drill-through; accessibility; RLS/refresh/sharing concepts; narrative and reconciliation | 46, 47, 48, 49, 60, 76 | Validated semantic model, report and decision briefing |
+| APIs, systems & data governance | System context; REST/HTTP/JSON; events/batch/sync/async; Postman; headers/status/auth concepts; pagination; OpenAPI/JSON Schema; idempotency/retry/timeout; mapping; master/reference data; lineage; RBAC/audit/retention | 24, 45, 50, 51, 52, 53, 54, 56, 59, 76 | API collection, contract, mapping and control matrix |
+| Python, AI & workflow automation | Python/pandas; Jupyter/VS Code; reproducible assertions; AI-assisted analysis with provenance and human validation; Power Automate/RPA; triggers/conditions; approval simulation; logs/error queues/recovery | 45, 51, 55, 56, 59, 68, 75 | Local QA script/notebook and controlled workflow prototype |
+| Testing & acceptance | V-model; unit/SIT/system/UAT/regression/smoke; risk-based testing; equivalence/boundaries/decision/state/pairwise; Gherkin/BDD; synthetic test data; contracts/assertions; defect severity/priority; retest; coverage; exit/go-no-go | 16, 19, 27, 57, 58, 59, 60, 61, 62, 63, 78 | Traceable test suite, defect log and release recommendation |
+| Change, release & benefits | ADKAR/Kotter overview; change impact/readiness; training/SOP/handover; cutover/migration/reconciliation/rollback/hypercare; risk matrix/FMEA/controls; benefits realisation; baselines/pilots/A-B/guardrails/adoption | 64, 65, 66, 67, 68, 69, 70, 79, 89 | Launch/readiness pack and post-launch measurement plan |
+| Communication & professional practice | Facilitation; written/visual communication; executive/technical/user audiences; influence; decisions; ethical evidence; case interviews; STAR with labelled simulations; portfolio/version control; integrated professional judgement | 7, 14, 28, 30, 35, 49, 56, 60, 63, 70, 77, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90 | Three general case packs and a defensible final presentation |
+
+## PC tool coverage
+
+| Tool group | Tools | Days | Practice purpose |
+| --- | --- | --- | --- |
+| Documents & spreadsheets | Word + Excel, or LibreOffice; Markdown is also supported | 1–90 | Specifications, stakeholder/RTM/test registers, financial models, data validation and PivotTables. |
+| Process & system modelling | diagrams.net; Visio is an alternative | 2–90 | BPMN, UML, DFD, ERD, context diagrams, decision models and architecture. |
+| Backlog & knowledge workspace | Jira + Confluence; structured Excel + Markdown fallback | 17–90 | Epics, stories, workflow, JQL, refinement, sprint/release planning and linked documentation. |
+| UX prototypes | Figma or Penpot | 12, 26–30, 76 | Personas, journeys, desktop wireframes, linked prototypes, errors and usability tasks. |
+| SQL laboratory | DB Browser for SQLite; DBeaver/SQL Server alternatives | 39–90 | Relational design, SQL, CTEs, windows, validation and reproducible analysis. |
+| Business intelligence | Power BI Desktop | 46–90 | Power Query, star schema, DAX, accessible reporting and decision narratives. |
+| API and contract laboratory | Postman + JSON editor + Swagger Editor | 50–90 | HTTP/JSON, mock requests, contracts, error handling, collections and assertions. |
+| Code and analytical notebooks | Python, pandas, Jupyter or VS Code | 55–90 | Reproduce data checks, compare SQL results, build assertions and audit AI-assisted drafts. |
+| Workflow and RPA sandbox | Power Automate Desktop or local Python/CSV workflow | 68–70 | Manual triggers, validation, approval simulation, outputs, audit and error handling. |
+| Versioned evidence & presentation | Git/GitHub, Markdown, PowerPoint or LibreOffice Impress, PC recorder | 1–90 | File history, readable case studies, reproducible instructions and stakeholder briefings. |
+
+Read PC_SETUP.md for official links and setup guidance. Each day has three PC steps and an advanced extension.
+
+## Dashboard wireframe
+
+| Navigation | Workspace |
 | --- | --- |
-| Status / Quests / Dungeons / Shop / Shadows / Guide / Settings | Header: player, IST date, day number, gold |
-| Player identity and save controls | Player card: level, rank, total XP, mission count, XP progress |
-| Navigation remains available | Attribute radar: STR / AGI / VIT / INT / PER; HP and fatigue |
-|  | Three chapters: Days 1–30, 31–60, 61–90 |
-|  | Daily preparation (7 quests) alongside the main mission |
-|  | 90-day clickable map; boss gates at 30 / 60 / 90 |
-|  | Active recovery quest and export reminder |
-
-The website contains a rendered box wireframe in System guide → The blueprint.
+| Status / Quests / Skill Atlas / PC Lab / Dungeons / Shop / Shadows / Guide / Settings | Player, IST date, day, gold and settings |
+|  | Level/rank/XP panel, attribute radar and HP/fatigue |
+|  | Three chapters, seven daily preparation quests and current mission |
+|  | Mission: concepts, PC steps, acceptance, advanced extension and speaking |
+|  | 90-day map and 14-dungeon campaign |
+|  | Recovery task and backup/export controls |
 
 ## Object schema
 
-Relation, Rollup, Formula, Select and Checkbox are workspace-style property types. The running app uses browser-local JSON. schema.sql is a reference relational design, not a live server database.
+Relation, Rollup, Formula, Select and Checkbox describe equivalent workspace properties. The static app uses browser-local JSON; schema.sql is a reference relational design for a future server backend.
 
-| Object | Properties and types | Relationships / implementation |
+| Object | Properties/types | Relationships and implementation |
 | --- | --- | --- |
 | Player | id (ID), name (Text), start (Date), minutes (Number), target (Select), events (Relation), Total EXP / Gold (Rollup), Level / Rank / Stats / HP (Formula) | 1 → many RewardEvent, DailyLog, QuestInstance, RaidClear, Purchase |
-| CurriculumDay | day (Number, PK), week / phase (Select), title / task / acceptance / drill (Text), tools (Multi-select), resource (URL), boss (Checkbox) | 1 → many QuestInstance; many → Dungeon through day range |
+| CurriculumDay | day (Number, PK), week / phase (Select), title / task / acceptance / drill (Text), tools (Multi-select), resource (URL), boss (Checkbox), pcSteps (Text array), stretch (Text) | 1 → many QuestInstance; many → Dungeon through day range |
 | QuestTemplate | id (ID), name / detail (Text), recurrence (Select: daily), xp / gold (Number), stat (Select), stat points (Number) | 1 → many QuestInstance; five lifestyle templates plus study/speak types |
 | QuestInstance | id (ID), player / template / day (Relation), scheduled_date (Date), completed_date (Date), evidence (Text), status (Select) | Stored in missions[day] and days[date].habits; one completion → one RewardEvent |
 | RewardEvent | id (ID, unique), source (Text / source relation), date (Date), xp / gold (Number), stats (JSON numbers), createdAt (Datetime) | Many → Player; immutable award/purchase ledger; XP and signed Gold roll up |
@@ -43,25 +84,16 @@ Relation, Rollup, Formula, Select and Checkbox are workspace-style property type
 
 ## Exact progression rules
 
-Total EXP and gold are sums from the RewardEvent ledger; purchases have negative gold and zero XP. Every source reward has a unique key, preventing duplicate claims. Base stats are 10 plus the corresponding earned-stat sum.
-
-Cumulative XP for Level L = 50 × (L − 1) × (L + 2).
+Total EXP = sum of reward-event XP. Gold = sum of signed gold deltas. Every reward source has a unique key. Each stat = 10 + its earned deltas.
+Cumulative Level L threshold = 50 × (L − 1) × (L + 2).
 Level = floor((sqrt(9 + 0.08 × TotalEXP) − 1) / 2).
-XP required within the current level = 100 × (Level + 1).
+Current-level requirement = 100 × (Level + 1).
 Remaining XP = 50 × Level × (Level + 3) − TotalEXP.
+Ranks: E 1–4; D 5–8; C 9–12; B 13–16; A 17–20; S 21+.
 
-| Hunter rank | Levels | Minimum total EXP |
-| --- | --- | --- |
-| E | 1–4 | 0 |
-| D | 5–8 | 1400 |
-| C | 9–12 | 4400 |
-| B | 13–16 | 9000 |
-| A | 17–20 | 15200 |
-| S | 21+ | 23000 |
+### Copy-pasteable Notion Formula 2.0
 
-### Copy-pasteable Notion Formula 2.0 expressions
-
-Create the named properties first. Paste each expression into its own Formula property. Total EXP is a Relation → Reward Events / XP / Sum rollup; stat earned properties are matching numeric-field rollups.
+Create named properties first. Paste each expression into its own Formula property. Total EXP and earned stats are numeric rollups from reward events.
 
 ```javascript
 /* Notion Formula 2.0 — Player database */
@@ -98,1157 +130,1863 @@ prop("Total EXP") - 50 * (prop("Level") - 1) * (prop("Level") + 2)
 /* Gold: Rollup Reward Events → Gold Delta → Sum */
 ```
 
-The website’s actual executable JavaScript is in engine.js. Notion formulas alone cannot run a midnight scheduler or a chronological fatigue ledger.
+engine.js contains the running JavaScript. Notion formulas alone cannot run an unattended midnight scheduler.
 
-## Daily preparation, HP and recovery
+## Quests, fatigue and rewards
 
-| Quest | XP | Gold | Stat |
-| --- | --- | --- | --- |
-| BA mission with evidence | 80 | 20 | INT +2 |
-| Speaking drill | 20 | 5 | PER +1 |
-| Comfortable movement | 20 | 5 | STR +1 |
-| Anchor routine | 15 | 4 | AGI +1 |
-| Hydration and regular meal | 10 | 3 | VIT +1 |
-| Protect sleep/recovery | 20 | 5 | VIT +1 |
-| Plan and reflect | 15 | 4 | PER +1 |
+Daily BA evidence: 80 XP/20 gold/INT +2. Speaking: 20 XP/5 gold/PER +1. Movement: 20 XP/5 gold/STR +1. Routine: 15 XP/4 gold/AGI +1. Hydration/meal: 10 XP/3 gold/VIT +1. Rest: 20 XP/5 gold/VIT +1. Reflection: 15 XP/4 gold/PER +1.
 
-A full day earns 180 XP and 46 gold. All days plus 14 dungeons and 3 bosses yield 24,130 XP, enough for Level 21/S-Rank. Rank is a game measure; evidence reviews assess learning. Each raid also grants INT +3 and PER +2.
+A full day earns 180 XP/46 gold. All days plus 14 dungeons and three bosses give 24,130 XP, reaching Level 21/S-Rank. Every raid also grants INT +3/PER +2. Rank is a game reward; evidence quality is the learning standard.
 
-At midnight Asia/Kolkata (IST), close the date once. Count required quests that were not completed by that date. Add min(12, 3 × missed) fatigue. Overwork adds 4 × ceil(max(0, studyMinutes − 180) / 30). A completed rest quest subtracts 12; a recovery review subtracts 8 at most once per date. Process dates chronologically and clamp each day to 0–80 fatigue. HP = 100 − fatigue. An exempt rest day leaves fatigue unchanged and creates no missed-quest penalty. HP and fatigue are game values.
+At midnight IST, close each date once. Missed quests add min(12, 3 × missed) fatigue. Study above 180 minutes adds 4 per started extra 30-minute block. Rest completion subtracts 12; a recovery review subtracts 8 at most once per date. Process dates chronologically and clamp fatigue to 0–80; HP = 100 − fatigue. Exempt rest days leave fatigue unchanged and create no missed-quest penalty. HP/fatigue are gameplay values.
 
-If quests are missed, assign one compulsory 10-minute recovery review due the following date: describe the blocker, shrink the next task and prepare one next step. Multiple missed dates merge into one active review. No exercise punishment, lost food/rest, debt or escalating backlog. No XP/gold reward for recovery. A closed website catches up on the next visit; checks run every minute while open. A true unattended midnight trigger needs a backend scheduler.
+Missed dates assign a ten-minute recovery review due the next day. Explain the blocker and prepare a smaller next step. Several missed dates merge into one active review; no XP/gold is paid. The app checks while open and catches up when reopened. A closed static page cannot execute a background job.
 
-## Dungeons, raids and extracted shadows
+Shop prices: quiet hour 60 gold; celebration 150; side quest 300; book/gear 650 within the real-world budget. Purchases debit the ledger and cannot exceed its balance. No real payment occurs.
 
-Clear both learning and speaking tasks for every required day; then provide artifact notes and confirm completeness, validation and explainability. The clear pays once.
+## Dungeons, bosses and shadows
+
+Complete learning/speaking for each required day, then submit evidence and confirm completeness, validation and explainability. Raid rewards pay once. Shadow activation unlocks reusable templates; it does not connect accounts or execute external actions.
 
 | Dungeon | Days | Rank | XP / Gold | Shadow |
 | --- | --- | --- | --- | --- |
-| Awakening | 1–7 | E | 120 / 35 | Problem brief |
-| The art of discovery | 8–14 | E | 120 / 35 | Discovery playbook |
-| Requirements forge | 15–21 | D | 180 / 50 | Requirements toolkit |
-| Agile command | 22–28 | D | 180 / 50 | Story & sprint kit |
-| The data gate | 29–35 | C | 240 / 65 | Excel QA checklist |
-| Query labyrinth | 36–42 | C | 240 / 65 | SQL investigation pack |
-| Insight chamber | 43–49 | B | 320 / 85 | KPI dictionary |
-| Integration bridge | 50–56 | B | 320 / 85 | Interface checklist |
-| Trial of quality | 57–63 | A | 420 / 110 | UAT command pack |
-| Change catalyst | 64–70 | A | 420 / 110 | Change & SOP kit |
-| The architect | 71–77 | A | 420 / 110 | Capstone blueprint |
-| Voice of the hunter | 78–84 | S | 550 / 140 | Stakeholder briefing kit |
+| Strategic awakening | 1–7 | E | 120 / 35 | Problem brief |
+| The discovery chamber | 8–14 | E | 120 / 35 | Discovery playbook |
+| The requirements forge | 15–21 | D | 180 / 50 | Requirements toolkit |
+| The solution architect | 22–28 | D | 180 / 50 | Solution model review kit |
+| The delivery command | 29–35 | C | 240 / 65 | Agile delivery kit |
+| The query labyrinth | 36–42 | C | 240 / 65 | SQL investigation pack |
+| The insight chamber | 43–49 | B | 320 / 85 | KPI dictionary |
+| The integration bridge | 50–56 | B | 320 / 85 | Interface checklist |
+| The trial of quality | 57–63 | A | 420 / 110 | UAT command pack |
+| The change catalyst | 64–70 | A | 420 / 110 | Change & SOP kit |
+| The independent architect | 71–77 | A | 420 / 110 | Capstone blueprint |
+| The professional defence | 78–84 | S | 550 / 140 | Stakeholder briefing kit |
 | The portfolio vault | 85–87 | S | 550 / 140 | Portfolio launch kit |
 | The final ascent | 88–90 | S | 550 / 140 | Final defence kit |
 
-| Boss | Day | XP / Gold | Portfolio pack |
+| Boss | Day | XP / Gold | Evidence pack |
 | --- | --- | --- | --- |
 | The Requirements Architect | 30 | 700 / 180 | Discovery + requirements pack |
 | The Evidence Keeper | 60 | 1000 / 250 | Data + integration + UAT pack |
 | The Business Analyst Monarch | 90 | 1600 / 400 | Three portfolio packs + final defence |
 
-Shadow activation pins reusable templates to your army. Download and adapt them. External accounts are not connected and no external actions execute from shadow activation.
-
-## Shop & inventory
-
-Gold pricing: 60 for a quiet hour; 150 for a small treat; 300 for a side quest; 650 for gear/book within your real budget. Gold is imaginary, and real spending is optional. Purchases are ledger debits, overspending is blocked, and inventory records redemption. Prices are fixed; there is no compounding or paid currency.
-
 ## Five-step setup under 30 minutes
 
-1. **0–5 minutes:** Confirm your player name, Day 1 date, daily budget and role label in Settings. The curriculum remains supply-chain/IT-focused if you change the label.
-2. **5–10 minutes:** Create portfolio subfolders for Discovery, Requirements, Data, UAT and Presentations. Prepare Docs/Markdown, diagrams.net and Excel/LibreOffice.
-3. **10–15 minutes:** Open Day 1, inspect its output and acceptance check, set a focus session and download the 90-day CSV if useful.
-4. **15–20 minutes:** Read the daily quests and shop; adapt movement/recovery to your life and use rest-day exemption when needed.
-5. **20–30 minutes:** Export your first JSON backup and set a weekly evidence review in your own calendar. Clear dungeons only after checking the work.
+1. 0–5 minutes: set name, start date, time budget and motion. Full-depth work recommends 180 minutes/day.
+2. 5–10 minutes: create the PC folder tree; prepare a document editor, spreadsheet and diagrams.net.
+3. 10–15 minutes: inspect Day 1, the Skill Atlas and PC Lab. Read acceptance conditions before starting.
+4. 15–20 minutes: download practice files and schedule later tool setup. Alternatives must preserve the same checks.
+5. 20–30 minutes: export a backup and establish weekly artifact reviews before claiming raid clears.
 
-This is setup time for the delivered app. Rebuilding the complete app from scratch requires more time. GitHub Pages needs repository Settings → Pages → Deploy from a branch → main /docs → Save.
+This is setup time for the delivered app; recreating the complete application takes longer.
 
-## Full day-by-day roadmap
+## Complete day-by-day roadmap
 
-### Day 1 · Your BA baseline
+### Day 1 · The business analysis profession
 
-**Tools:** Docs, voice recorder. **Techniques:** Skills assessment.
+**Tools:** Word or LibreOffice, Excel, browser. **Techniques:** BACCM, six knowledge areas, SDLC, value and outcomes.
 
-**Build:** Score yourself 1–5 in discovery, requirements, process, data, testing and communication; record a 90-second introduction.
+**Assignment:** Explain change, need, solution, stakeholder, value and context using a fictional service-request portal; distinguish BA, project manager, product owner and data analyst responsibilities.
 
-**Clear condition:** Six scores with one real example each; keep the recording for Day 90.
+**Do on your PC:**
 
-**Speaking drill:** Explain the business problem in 60 seconds: headline, who is affected, evidence needed, decision.
+1. Create BA_90_Days with Discovery, Requirements, Models, Data, Tests and Portfolio folders.
+2. Create Day_01/BA_Foundations.md and an Excel skills matrix; link each concept to the portal example.
+3. Record a two-minute explanation on the PC and save three questions to investigate.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Acceptance:** A six-concept map, role comparison and competency baseline; use hypothetical examples rather than employment history.
 
-### Day 2 · Choose the right problem
+**Advanced extension:** Compare how BA responsibilities change between a startup product team and a governed enterprise project.
 
-**Tools:** Docs, Excel. **Techniques:** Problem statement, SMART objectives.
+**Speaking:** Explain the business problem in 60 seconds: headline, who is affected, evidence needed, decision.
 
-**Build:** Frame a simulated dock-booking exception problem: who is affected, current pain, business impact and desired outcome.
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-**Clear condition:** One-page brief; separate known facts, assumptions and unmeasured baselines.
+### Day 2 · Define the right problem
 
-**Speaking drill:** Explain the business problem in 60 seconds: headline, who is affected, evidence needed, decision.
+**Tools:** Word, Excel, diagrams.net. **Techniques:** Problem statements, CATWOE, SMART objectives, 5 Whys, scope.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Assignment:** Frame slow request resolution as a business problem; separate symptoms, causes, constraints and desired outcomes.
 
-### Day 3 · Draw the boundary
+**Do on your PC:**
 
-**Tools:** diagrams.net, Docs. **Techniques:** Context diagram, in/out scope.
+1. Create Day_02/Problem_Brief.md with evidence, assumptions and unknowns in separate sections.
+2. Draw the cause chain in diagrams.net and export PNG plus editable drawio.
+3. Add objectives with owner, baseline collection method, target hypothesis and measurement period.
 
-**Build:** Map suppliers, planners, warehouse, carrier and proposed exception service; write five scope exclusions.
+**Acceptance:** One problem statement, CATWOE view, five-whys chain, three measurable objectives and clear scope exclusions.
 
-**Clear condition:** At least five external actors, labelled data flows and an agreed problem boundary.
+**Advanced extension:** Write a counter-hypothesis that would change the proposed direction.
 
-**Speaking drill:** Explain the business problem in 60 seconds: headline, who is affected, evidence needed, decision.
+**Speaking:** Explain the business problem in 60 seconds: headline, who is affected, evidence needed, decision.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-### Day 4 · Map the stakeholders
+### Day 3 · Strategy and enterprise context
 
-**Tools:** Excel, Docs. **Techniques:** Power–interest grid, RACI.
+**Tools:** Excel, PowerPoint, diagrams.net. **Techniques:** SWOT, PESTLE, Porter Five Forces, Business Model Canvas, capability mapping.
 
-**Build:** Create an eight-person stakeholder register and RACI for approval, booking, escalation and reporting.
+**Assignment:** Compare a fictional course-booking service and a service portal; identify strategic drivers, business capabilities and candidate changes.
 
-**Clear condition:** One accountable role per activity; communication preferences and decision rights captured.
+**Do on your PC:**
 
-**Speaking drill:** Explain the business problem in 60 seconds: headline, who is affected, evidence needed, decision.
+1. Create Strategy.xlsx with one sheet per framework and sources/assumptions columns.
+2. Build a level-one capability map such as discover, book, pay, support and report.
+3. Export a three-slide explanation showing which framework changed your recommendation.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Acceptance:** Two concise strategy canvases, a capability map and a recommendation linked to explicit assumptions.
 
-### Day 5 · Find the cause
+**Advanced extension:** Add a value-chain or operating-model view and explain where the frameworks produce conflicting signals.
 
-**Tools:** diagrams.net, Excel. **Techniques:** 5 Whys, fishbone, hypothesis tree.
+**Speaking:** Explain the business problem in 60 seconds: headline, who is affected, evidence needed, decision.
 
-**Build:** Explore late delivery changes and define three testable root-cause hypotheses.
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-**Clear condition:** Distinguish symptom from cause; give evidence needed to test each hypothesis.
+### Day 4 · Stakeholders and decision rights
 
-**Speaking drill:** Explain the business problem in 60 seconds: headline, who is affected, evidence needed, decision.
+**Tools:** Excel, Word. **Techniques:** Stakeholder register, onion diagram, power-interest grid, RACI, engagement planning.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Assignment:** Identify sponsor, customers, service agents, supervisors, engineering, QA, security and finance for the portal.
 
-### Day 6 · Define value
+**Do on your PC:**
 
-**Tools:** Excel, Docs. **Techniques:** KPI definition, benefits hypothesis.
+1. Create Stakeholders.xlsx with interest, influence, impact, concerns, communication and decision rights.
+2. Draw the onion diagram and power-interest grid in diagrams.net.
+3. Test the RACI against request approval, priority changes, release and incident escalation.
 
-**Build:** Define on-time delivery, exception resolution time and slot utilisation with grain, numerator and denominator.
+**Acceptance:** An eight-role register, engagement matrix and RACI with exactly one accountable role per decision.
 
-**Clear condition:** Three KPI definitions including owner, source, exclusions and baseline collection plan.
+**Advanced extension:** Handle a stakeholder who has high impact but low formal power.
 
-**Speaking drill:** Explain the business problem in 60 seconds: headline, who is affected, evidence needed, decision.
+**Speaking:** Explain the business problem in 60 seconds: headline, who is affected, evidence needed, decision.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-### Day 7 · Dungeon 01: the problem brief
+### Day 5 · Build a defensible business case
 
-**Tools:** Docs, slides. **Techniques:** Playback, peer review.
+**Tools:** Excel, Word. **Techniques:** Options appraisal, cost-benefit analysis, ROI, payback, NPV, sensitivity analysis.
 
-**Build:** Combine Days 1–6 into a concise discovery brief and deliver a three-minute stakeholder playback.
+**Assignment:** Compare doing nothing, improving the manual process and implementing a lightweight portal using clearly invented scenario inputs.
 
-**Clear condition:** Scope, stakeholders, hypotheses and value measures are consistent; note three improvements.
+**Do on your PC:**
 
-**Speaking drill:** Explain the business problem in 60 seconds: headline, who is affected, evidence needed, decision.
+1. Create Business_Case.xlsx with Inputs, Options, Cashflows and Sensitivity sheets.
+2. Calculate ROI, cumulative payback and NPV using time-zero investment separately from future cashflows.
+3. Change volume, cost and benefit assumptions and record when the recommended option changes.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Acceptance:** A linked financial model with formulas, stated discount-rate assumption, sensitivity table and an uncertainty-aware recommendation.
 
-### Day 8 · Prepare your interviews
+**Advanced extension:** Add pessimistic, base and optimistic scenarios; distinguish cash savings from capacity released.
 
-**Tools:** Docs, voice recorder. **Techniques:** Semi-structured interview, funnel questions.
+**Speaking:** Explain the business problem in 60 seconds: headline, who is affected, evidence needed, decision.
 
-**Build:** Write ten open questions for a warehouse planner; add consent, timing and evidence prompts.
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-**Clear condition:** Questions avoid leading the witness and cover exceptions, workarounds and business rules.
+### Day 6 · Plan the BA work
 
-**Speaking drill:** Give a 90-second playback: what you heard, what is uncertain, and what you need confirmed.
+**Tools:** Excel, Word, calendar. **Techniques:** BA approach, governance, estimation, WBS, RAID log, communication plan.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Assignment:** Prepare the analysis plan, deliverable schedule, decision governance and requirements change approach.
 
-### Day 9 · Simulate an interview
+**Do on your PC:**
 
-**Tools:** Voice recorder, Docs. **Techniques:** Active listening, probing, confirmation.
+1. Create BA_Plan.xlsx with work packages, estimates, dependencies and review dates.
+2. Create RAID and Decision_Log sheets with owner, status and next action.
+3. Write a two-page governance note covering baselines, versioning, approvals and change decisions.
 
-**Build:** Role-play planner and analyst; capture five needs and label all responses as simulated.
+**Acceptance:** A small WBS, effort estimates, RAID log, review cadence and named approval roles; assumptions are visible.
 
-**Clear condition:** Separate quotes, interpretation and assumptions; confirm the five needs in a summary.
+**Advanced extension:** Estimate the same analysis work using analogous and three-point estimation and compare the ranges.
 
-**Speaking drill:** Give a 90-second playback: what you heard, what is uncertain, and what you need confirmed.
+**Speaking:** Explain the business problem in 60 seconds: headline, who is affected, evidence needed, decision.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-### Day 10 · Plan a workshop
+### Day 7 · Dungeon 01: strategy defence
 
-**Tools:** Slides, whiteboard. **Techniques:** Facilitation, agenda, parking lot.
+**Tools:** Excel, PowerPoint, Word. **Techniques:** Business-case review, challenge testing, sponsor briefing.
 
-**Build:** Design a 45-minute discovery workshop with purpose, roles, activities and decisions.
+**Assignment:** Defend the problem, strategic context, financial case, stakeholder plan and BA approach as a connected recommendation.
 
-**Clear condition:** Every agenda section has timing and an output; include a conflict and parking-lot plan.
+**Do on your PC:**
 
-**Speaking drill:** Give a 90-second playback: what you heard, what is uncertain, and what you need confirmed.
+1. Assemble Days 1–6 into Portfolio/Case_01_Discovery with a linked index.
+2. Audit formulas and remove unsupported benefit claims.
+3. Record a five-minute sponsor briefing and write answers to five objections.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Acceptance:** A charter plus reviewed model; financial formulas reconcile and the presentation ends with a decision request.
 
-### Day 11 · Map today’s flow
+**Advanced extension:** Reassess the business case after reducing the assumed benefits by 30%.
 
-**Tools:** diagrams.net. **Techniques:** BPMN basics, swimlanes, SIPOC.
+**Speaking:** Explain the business problem in 60 seconds: headline, who is affected, evidence needed, decision.
 
-**Build:** Map the as-is dock exception flow with start/end events, decision gateways and handoffs.
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-**Clear condition:** Four lanes, two exception routes, owners and input/output definitions; no orphan steps.
+### Day 8 · Choose elicitation methods
 
-**Speaking drill:** Give a 90-second playback: what you heard, what is uncertain, and what you need confirmed.
+**Tools:** Word, Excel. **Techniques:** Interviews, observation, document analysis, surveys, focus groups, workshops.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Assignment:** Design an elicitation plan that selects methods by uncertainty, stakeholder access and evidence needed.
 
-### Day 12 · Capture hidden rules
+**Do on your PC:**
 
-**Tools:** Excel, Docs. **Techniques:** Observation, document analysis, decision table.
+1. Create Elicitation_Plan.xlsx mapping each unknown to a method, participant and expected artifact.
+2. Write a session protocol and a document-review checklist.
+3. Schedule simulated activities without sending invitations or contacting anyone.
 
-**Build:** Write rules for available capacity, carrier lateness, approval and escalation.
+**Acceptance:** A question-to-method matrix, sampling assumptions, session logistics and confirmation approach.
 
-**Clear condition:** Decision table covers normal, boundary and invalid cases; flag assumptions for validation.
+**Advanced extension:** Explain when a survey would be misleading and what you would do instead.
 
-**Speaking drill:** Give a 90-second playback: what you heard, what is uncertain, and what you need confirmed.
+**Speaking:** Give a 90-second playback: what you heard, what is uncertain, and what you need confirmed.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-### Day 13 · Design tomorrow’s flow
+### Day 9 · Interview and probe
 
-**Tools:** diagrams.net, Excel. **Techniques:** To-be modelling, gap analysis.
+**Tools:** Voice recorder, Word. **Techniques:** Open questions, funnel questions, active listening, laddering, confirmation.
 
-**Build:** Create a to-be flow with human approval before booking changes and compare it with the as-is.
+**Assignment:** Run a simulated interview with a service agent and another with a customer; expose needs, workarounds and exceptions.
 
-**Clear condition:** Each gap has an owner, proposed change and intended benefit; preserve an exception route.
+**Do on your PC:**
 
-**Speaking drill:** Give a 90-second playback: what you heard, what is uncertain, and what you need confirmed.
+1. Write an interview script with opening, probes and closing confirmation.
+2. Record both roles using the PC recorder; annotate timestamps for useful probes.
+3. Split notes into statements, interpretations, evidence and follow-up actions.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Acceptance:** Ten useful questions, labelled simulated notes, five confirmed needs and a list of unresolved assumptions.
 
-### Day 14 · Dungeon 02: discovery playback
+**Advanced extension:** Rewrite three leading questions and probe an apparent contradiction without blaming the interviewee.
 
-**Tools:** Slides, voice recorder. **Techniques:** Facilitation, confirmation, action log.
+**Speaking:** Give a 90-second playback: what you heard, what is uncertain, and what you need confirmed.
 
-**Build:** Present as-is, to-be and unresolved questions in five slides; record a four-minute playback.
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-**Clear condition:** Ask for three explicit decisions and capture owner/date for each unresolved issue.
+### Day 10 · Triangulate discovery evidence
 
-**Speaking drill:** Give a 90-second playback: what you heard, what is uncertain, and what you need confirmed.
+**Tools:** Excel, Word. **Techniques:** Observation, document analysis, surveys, sampling, affinity mapping.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Assignment:** Create fictional observations, survey responses and a form sample, then reconcile conflicting evidence.
 
-### Day 15 · Separate requirements
+**Do on your PC:**
 
-**Tools:** Docs, Excel. **Techniques:** Business, stakeholder, solution and transition requirements.
+1. Create a 15-response synthetic survey sheet with question IDs and response coding.
+2. Review a mock request form and record five observed process problems.
+3. Group findings into themes and link every proposed need to its source.
 
-**Build:** Draft twelve requirements for the dock exception solution and classify each.
+**Acceptance:** A small evidence log and affinity map; sample limitations and contradictions are explicit.
 
-**Clear condition:** Each requirement has a unique ID, source, rationale and category.
+**Advanced extension:** Show how selection bias could reverse one conclusion.
 
-**Speaking drill:** Explain one requirement in plain language, then give its acceptance example and business value.
+**Speaking:** Give a 90-second playback: what you heard, what is uncertain, and what you need confirmed.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-### Day 16 · Make them measurable
+### Day 11 · Facilitate a difficult workshop
 
-**Tools:** Docs. **Techniques:** Atomicity, ambiguity review, verification.
+**Tools:** PowerPoint, whiteboard, Word. **Techniques:** Facilitation, brainstorming, mind mapping, consensus, nominal group technique.
 
-**Build:** Rewrite six vague requirements into atomic testable statements.
+**Assignment:** Design and role-play a workshop where customers, support and engineering disagree about priorities.
 
-**Clear condition:** Each rewritten requirement has observable success conditions and avoids undefined terms such as fast.
+**Do on your PC:**
 
-**Speaking drill:** Explain one requirement in plain language, then give its acceptance example and business value.
+1. Build a 45-minute workshop deck with objectives and activity instructions.
+2. Create a digital mind map and a nominal-ranking worksheet.
+3. Record a ten-minute simulated facilitation segment and document decisions and dissent.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Acceptance:** A timed agenda, decision rule, parking lot, conflict response and clear action log.
 
-### Day 17 · Write the BRD
+**Advanced extension:** Compare consensus with weighted voting and explain when each would be inappropriate.
 
-**Tools:** Docs, Confluence or Markdown. **Techniques:** Business requirements document.
+**Speaking:** Give a 90-second playback: what you heard, what is uncertain, and what you need confirmed.
 
-**Build:** Build a lean BRD covering goals, scope, actors, assumptions, requirements and constraints.
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-**Clear condition:** Every requirement traces back to a business objective; include a version and approval log.
+### Day 12 · Understand the user experience
 
-**Speaking drill:** Explain one requirement in plain language, then give its acceptance example and business value.
+**Tools:** Figma or diagrams.net, Word. **Techniques:** Personas, empathy mapping, jobs-to-be-done, customer journeys, service blueprint.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Assignment:** Map a customer raising a request and an agent resolving it, including frontstage and backstage work.
 
-### Day 18 · Model the user journey
+**Do on your PC:**
 
-**Tools:** diagrams.net, Docs. **Techniques:** Use cases, alternate and exception flows.
+1. Create two persona cards with goals, constraints and assumptions.
+2. Draw the journey from discovery to resolution and add emotions and touchpoints.
+3. Add backstage systems, handoffs and measurable service failures.
 
-**Build:** Write a Reschedule Delivery use case with preconditions, trigger, normal flow and failure routes.
+**Acceptance:** Two evidence-labelled personas, a journey and a service blueprint with failure points.
 
-**Clear condition:** Include no-capacity, approval-rejected and duplicate-request scenarios.
+**Advanced extension:** Identify an accessibility or low-digital-confidence need that changes the journey.
 
-**Speaking drill:** Explain one requirement in plain language, then give its acceptance example and business value.
+**Speaking:** Give a 90-second playback: what you heard, what is uncertain, and what you need confirmed.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-### Day 19 · Specify quality attributes
+### Day 13 · Analyse the current process
 
-**Tools:** Docs, Excel. **Techniques:** Non-functional requirements, accessibility, privacy.
+**Tools:** diagrams.net, Excel. **Techniques:** SIPOC, value-stream mapping, 5 Whys, fishbone, Pareto, bottlenecks.
 
-**Build:** Define response-time, availability, access, audit and usability requirements for the prototype.
+**Assignment:** Model the current request process and diagnose waste using a fictional set of processing and waiting times.
 
-**Clear condition:** Five measurable requirements with a verification method; targets are assumptions, not production promises.
+**Do on your PC:**
 
-**Speaking drill:** Explain one requirement in plain language, then give its acceptance example and business value.
+1. Create a swimlane diagram with customer, agent, supervisor and system lanes.
+2. Use Excel to separate processing time from waiting time and calculate a flow-efficiency example.
+3. Build a Pareto chart from synthetic issue counts and state which root causes remain unverified.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Acceptance:** SIPOC, as-is flow, time assumptions, a cause analysis and a prioritised validation plan.
 
-### Day 20 · Prioritise fairly
+**Advanced extension:** Compare a local optimisation with an end-to-end improvement and identify the tradeoff.
 
-**Tools:** Excel. **Techniques:** MoSCoW, weighted scoring, dependency analysis.
+**Speaking:** Give a 90-second playback: what you heard, what is uncertain, and what you need confirmed.
 
-**Build:** Prioritise twelve requirements using business value, risk, effort and dependency notes.
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-**Clear condition:** Explain three tradeoffs and why each must-have is needed for the minimum viable outcome.
+### Day 14 · Dungeon 02: discovery review
 
-**Speaking drill:** Explain one requirement in plain language, then give its acceptance example and business value.
+**Tools:** PowerPoint, Word, diagrams.net. **Techniques:** Playback, evidence synthesis, stakeholder confirmation.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Assignment:** Present the needs, journey, as-is process and disputed assumptions without jumping prematurely to a solution.
 
-### Day 21 · Dungeon 03: requirements review
+**Do on your PC:**
 
-**Tools:** Excel, Docs. **Techniques:** Requirements traceability matrix, review.
+1. Compile interviews, themes, personas and process models into a linked index.
+2. Create five slides separating findings from hypotheses.
+3. Record the playback and maintain a decision/action log with owners and dates.
 
-**Build:** Create an RTM linking objectives → requirements → acceptance tests and resolve two conflicts.
+**Acceptance:** A discovery pack with source links, unresolved questions and three explicit decisions for stakeholders.
 
-**Clear condition:** No orphan requirement; all high-priority needs have an owner and test reference.
+**Advanced extension:** Show what new evidence would cause you to reject your preferred solution.
 
-**Speaking drill:** Explain one requirement in plain language, then give its acceptance example and business value.
+**Speaking:** Give a 90-second playback: what you heard, what is uncertain, and what you need confirmed.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-### Day 22 · Learn delivery models
+### Day 15 · Classify and structure requirements
 
-**Tools:** Docs, Scrum Guide. **Techniques:** Agile, waterfall, Scrum, Kanban.
+**Tools:** Excel, Word. **Techniques:** Business, stakeholder, functional, non-functional and transition requirements.
 
-**Build:** Compare a fixed compliance change with evolving booking automation; choose an approach for each.
+**Assignment:** Build a requirements catalogue for a general service-request portal, with relationships and rationale.
 
-**Clear condition:** Explain uncertainty, governance and feedback needs; identify Scrum accountabilities correctly.
+**Do on your PC:**
 
-**Speaking drill:** Give a 60-second update: goal, progress, blocker, next step and one clear request.
+1. Create Requirements.xlsx with ID, type, statement, rationale, source, owner, priority and status.
+2. Draft requirements for create, route, prioritise, track, report and migrate requests.
+3. Identify conflicts, duplicates and missing transition requirements.
 
-**Learn:** [The official Scrum Guide](https://scrumguides.org/download.html)
+**Acceptance:** At least 18 uniquely identified requirements across all five categories, each linked to a need.
 
-### Day 23 · Build the backlog
+**Advanced extension:** Separate a business rule, a requirement and a proposed design choice for the same feature.
 
-**Tools:** Jira or spreadsheet, Confluence. **Techniques:** Epics, user stories, INVEST.
+**Speaking:** Explain one requirement in plain language, then give its acceptance example and business value.
 
-**Build:** Create three epics and twelve user stories for the exception solution.
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-**Clear condition:** Each story has user, need and value; split stories that contain multiple independent outcomes.
+### Day 16 · Make requirements verifiable
 
-**Speaking drill:** Give a 60-second update: goal, progress, blocker, next step and one clear request.
+**Tools:** Word, Excel. **Techniques:** Atomicity, ambiguity analysis, FURPS+, measurable NFRs, verification vs validation.
 
-**Learn:** [The official Scrum Guide](https://scrumguides.org/download.html)
+**Assignment:** Rewrite vague statements into precise requirements for usability, reliability, performance, access and audit.
 
-### Day 24 · Define acceptance
+**Do on your PC:**
 
-**Tools:** Jira or Markdown. **Techniques:** Given–When–Then, examples, boundary testing.
+1. Create a before/after review sheet for vague requirements.
+2. Define NFR measures with test conditions, volumes and clearly hypothetical targets.
+3. Conduct a peer-style quality review and record accepted and rejected revisions.
 
-**Build:** Write three acceptance scenarios each for booking approval, duplicate handling and capacity checking.
+**Acceptance:** Ten revised requirements with measurable acceptance conditions and a suitable verification method.
 
-**Clear condition:** Positive, negative and boundary scenarios are unambiguous and observable.
+**Advanced extension:** Analyse a performance-security-usability tradeoff and identify the decision owner.
 
-**Speaking drill:** Give a 60-second update: goal, progress, blocker, next step and one clear request.
+**Speaking:** Explain one requirement in plain language, then give its acceptance example and business value.
 
-**Learn:** [The official Scrum Guide](https://scrumguides.org/download.html)
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-### Day 25 · Slice the work
+### Day 17 · Write the specification set
 
-**Tools:** Whiteboard, Jira. **Techniques:** Story mapping, vertical slicing, MVP.
+**Tools:** Word or Markdown, Confluence. **Techniques:** BRD, FRD/SRS, glossary, requirements architecture, version control.
 
-**Build:** Map the user journey and choose one thin end-to-end release.
+**Assignment:** Create a lean business brief plus a structured solution specification, choosing detail that fits the audience.
 
-**Clear condition:** MVP includes submission, validation, approval and feedback; defer low-value scope explicitly.
+**Do on your PC:**
 
-**Speaking drill:** Give a 60-second update: goal, progress, blocker, next step and one clear request.
+1. Create Business_Brief.md and Solution_Specification.md with a navigation index.
+2. Link requirements rather than copying conflicting versions between documents.
+3. Add an assumptions register and version history with simulated review comments.
 
-**Learn:** [The official Scrum Guide](https://scrumguides.org/download.html)
+**Acceptance:** Consistent scope, glossary, requirements, assumptions, dependencies and approval/version sections.
 
-### Day 26 · Plan a sprint
+**Advanced extension:** Explain which specification sections you would remove for a small Agile team and why.
 
-**Tools:** Jira or spreadsheet. **Techniques:** Refinement, estimation, Definition of Ready/Done.
+**Speaking:** Explain one requirement in plain language, then give its acceptance example and business value.
 
-**Build:** Refine six stories and create a mock sprint with a Sprint Goal and capacity assumptions.
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-**Clear condition:** No committed story exceeds assumed capacity; Definition of Done includes testing and evidence.
+### Day 18 · Specify use cases and interactions
 
-**Speaking drill:** Give a 60-second update: goal, progress, blocker, next step and one clear request.
+**Tools:** diagrams.net, Word. **Techniques:** Use-case diagrams, actors, preconditions, basic/alternate/exception flows.
 
-**Learn:** [The official Scrum Guide](https://scrumguides.org/download.html)
+**Assignment:** Specify Submit Request and Approve Escalation use cases, including failure behaviour.
 
-### Day 27 · Handle a change request
+**Do on your PC:**
 
-**Tools:** Docs, Excel. **Techniques:** Impact analysis, change control, negotiation.
+1. Draw the system boundary and actors.
+2. Write numbered flows for each use case in Use_Cases.md.
+3. Walk through unauthorised access, missing information, duplicate submission and rejected escalation.
 
-**Build:** Assess a new auto-approve request against privacy, risk, scope, cost and acceptance tests.
+**Acceptance:** Two complete use cases with triggers, preconditions, outcomes, alternate flows and referenced rules.
 
-**Clear condition:** Give options, recommendation and approval owner; update RTM and backlog versions.
+**Advanced extension:** Distinguish include/extend relationships from ordinary sequencing.
 
-**Speaking drill:** Give a 60-second update: goal, progress, blocker, next step and one clear request.
+**Speaking:** Explain one requirement in plain language, then give its acceptance example and business value.
 
-**Learn:** [The official Scrum Guide](https://scrumguides.org/download.html)
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-### Day 28 · Dungeon 04: sprint simulation
+### Day 19 · Model business rules
 
-**Tools:** Jira, Slides. **Techniques:** Sprint review, retrospective.
+**Tools:** Excel, diagrams.net. **Techniques:** Decision tables, decision trees, DMN concepts, rule consistency.
 
-**Build:** Walk through the board, demo two paper-prototype stories and run a start/stop/continue retrospective.
+**Assignment:** Specify request priority, routing and approval rules independently from the UI design.
 
-**Clear condition:** Explain a blocked story and a tradeoff; log one measurable improvement for the next sprint.
+**Do on your PC:**
 
-**Speaking drill:** Give a 60-second update: goal, progress, blocker, next step and one clear request.
+1. Create Rules.xlsx with rule IDs, conditions, outcomes and policy owners.
+2. Build a decision table and matching tree for priority/routing.
+3. Execute at least twelve examples and flag overlapping or uncovered combinations.
 
-**Learn:** [The official Scrum Guide](https://scrumguides.org/download.html)
+**Acceptance:** A rule catalogue and decision table with normal, boundary, conflicting and incomplete-input examples.
 
-### Day 29 · Sketch the experience
+**Advanced extension:** Compare unique-hit and first-hit decision-table behaviour.
 
-**Tools:** Figma or paper, diagrams.net. **Techniques:** Low-fidelity wireframing, usability walkthrough.
+**Speaking:** Explain one requirement in plain language, then give its acceptance example and business value.
 
-**Build:** Draw an exception inbox, request detail and approval screen; annotate empty/error states.
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-**Clear condition:** A planner can identify status, owner and next action; capture three usability observations.
+### Day 20 · Prioritise with tradeoffs
 
-**Speaking drill:** Explain one metric: definition, denominator, data limitation and operational implication.
+**Tools:** Excel, Jira or spreadsheet. **Techniques:** MoSCoW, Kano, WSJF, weighted scoring, dependencies.
 
-**Learn:** [Microsoft · Excel help & learning](https://support.microsoft.com/en-us/excel)
+**Assignment:** Prioritise the same backlog with different methods and reconcile the disagreement.
 
-### Day 30 · Boss 01: discovery to delivery
+**Do on your PC:**
 
-**Tools:** Docs, Slides, voice recorder. **Techniques:** Decision briefing, baseline review.
+1. Create separate prioritisation sheets and document each scoring scale.
+2. Calculate a WSJF example from hypothetical cost-of-delay and job-size values.
+3. Plot value versus effort and check whether dependencies alter the chosen MVP.
 
-**Build:** Assemble your discovery + requirements portfolio; record a five-minute sponsor briefing.
+**Acceptance:** A ranked backlog, explicit weights/inputs and three reasoned scope decisions.
 
-**Clear condition:** Include problem, BPMN, BRD, RTM, backlog and prototype; finish with a recommendation and decision request.
+**Advanced extension:** Show how changing one weight or estimated job size changes the ranking.
 
-**Speaking drill:** Explain one metric: definition, denominator, data limitation and operational implication.
+**Speaking:** Explain one requirement in plain language, then give its acceptance example and business value.
 
-**Learn:** [Microsoft · Excel help & learning](https://support.microsoft.com/en-us/excel)
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-### Day 31 · Inspect the data
+### Day 21 · Dungeon 03: requirements baseline
 
-**Tools:** Excel or LibreOffice. **Techniques:** Data profiling, grain, source inventory.
+**Tools:** Excel, Word, GitHub. **Techniques:** RTM, baselining, lifecycle status, change control, impact analysis.
 
-**Build:** Open the provided synthetic shipments CSV; document row grain, columns, nulls and data types.
+**Assignment:** Baseline the requirements and trace objectives through rules, designs and acceptance tests; assess a new change.
 
-**Clear condition:** State that it is training data; identify duplicates before calculating KPIs.
+**Do on your PC:**
 
-**Speaking drill:** Explain one metric: definition, denominator, data limitation and operational implication.
+1. Create an RTM with objective, requirement, rule, design and test IDs.
+2. Save a baseline snapshot and log a simulated change request.
+3. Trace the change through process, UI, data, tests, effort and risk before recommending approval or rejection.
 
-**Learn:** [Microsoft · Excel help & learning](https://support.microsoft.com/en-us/excel)
+**Acceptance:** No orphan must-have requirement; every critical requirement has a test reference and approval owner.
 
-### Day 32 · Clean reproducibly
+**Advanced extension:** Identify a change that is small in UI effort but high in business or integration risk.
 
-**Tools:** Excel Power Query. **Techniques:** Type conversion, deduplication, null handling.
+**Speaking:** Explain one requirement in plain language, then give its acceptance example and business value.
 
-**Build:** Import shipments into Power Query and define repeatable cleaning steps.
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-**Clear condition:** Keep raw input intact; justify duplicate and missing-date rules in a transformation log.
+### Day 22 · Model BPMN precisely
 
-**Speaking drill:** Explain one metric: definition, denominator, data limitation and operational implication.
+**Tools:** diagrams.net. **Techniques:** BPMN 2.0, pools/lanes, events, gateways, message flows, exception handling.
 
-**Learn:** [Microsoft · Excel help & learning](https://support.microsoft.com/en-us/excel)
+**Assignment:** Create an executable-looking but analysis-level portal process with routing, approval, timeout and cancellation.
 
-### Day 33 · Build useful formulas
+**Do on your PC:**
 
-**Tools:** Excel. **Techniques:** XLOOKUP, IF, SUMIFS, COUNTIFS.
+1. Use the BPMN shape library and build separate customer and service pools.
+2. Add a timer event, exclusive decision and parallel work where justified.
+3. Export the editable model and annotate assumptions and modelling errors found in review.
 
-**Build:** Map carrier names and calculate delivered, late and exception counts by carrier.
+**Acceptance:** Correctly labelled sequence/message flows, gateway conditions and two exception paths; no orphan activities.
 
-**Clear condition:** Reconcile formulas to a small manual sample; define treatment of open shipments.
+**Advanced extension:** Explain event-based versus exclusive gateways using an alternative scenario.
 
-**Speaking drill:** Explain one metric: definition, denominator, data limitation and operational implication.
+**Speaking:** Give a 60-second update: goal, progress, blocker, next step and one clear request.
 
-**Learn:** [Microsoft · Excel help & learning](https://support.microsoft.com/en-us/excel)
+**Primary reference:** [OMG · BPMN specification](https://www.omg.org/spec/BPMN/2.0/)
 
-### Day 34 · Summarise operations
+### Day 23 · Use UML for different questions
 
-**Tools:** Excel PivotTable. **Techniques:** Pivot tables, segmentation, Pareto.
+**Tools:** diagrams.net, Word. **Techniques:** Activity diagrams, sequence diagrams, state machines, use-case models.
 
-**Build:** Build carrier and warehouse pivots; use a Pareto view to prioritise exception reasons.
+**Assignment:** Model the same request feature from workflow, interaction and lifecycle viewpoints.
 
-**Clear condition:** Counts reconcile to cleaned rows; conclusions include sample size and limitations.
+**Do on your PC:**
 
-**Speaking drill:** Explain one metric: definition, denominator, data limitation and operational implication.
+1. Draw submit/approve interactions between user, UI, API and data store.
+2. Build request states with permitted transitions and guards.
+3. Compare the models and correct at least three inconsistencies.
 
-**Learn:** [Microsoft · Excel help & learning](https://support.microsoft.com/en-us/excel)
+**Acceptance:** An activity model, a sequence model and a state machine that agree on terminology and states.
 
-### Day 35 · Dungeon 05: spreadsheet control
+**Advanced extension:** Add an asynchronous callback and explain which diagram best exposes its failure modes.
 
-**Tools:** Excel, Docs. **Techniques:** Reconciliation, data validation, conditional formatting.
+**Speaking:** Give a 60-second update: goal, progress, blocker, next step and one clear request.
 
-**Build:** Create a one-page operations tracker with inputs, calculations, checks and a user note.
+**Primary reference:** [diagrams.net · modelling documentation](https://www.diagrams.net/doc/)
 
-**Clear condition:** Three reconciliation checks pass and invalid inputs are visibly flagged.
+### Day 24 · Map information flow
 
-**Speaking drill:** Explain one metric: definition, denominator, data limitation and operational implication.
+**Tools:** diagrams.net, Excel. **Techniques:** Context diagrams, levelled DFDs, CRUD matrices, data dictionaries.
 
-**Learn:** [Microsoft · Excel help & learning](https://support.microsoft.com/en-us/excel)
+**Assignment:** Model data entering, changing and leaving the portal; trace who can create, read, update and delete each entity.
 
-### Day 36 · Define the data model
+**Do on your PC:**
 
-**Tools:** diagrams.net, SQL editor. **Techniques:** ERD, keys, cardinality, normalisation.
+1. Draw the context DFD, then decompose request handling into a level-one model.
+2. Create an entity-role CRUD matrix in Excel.
+3. Document field meanings, types, validation, sensitivity and ownership.
 
-**Build:** Model Shipment, Carrier, Warehouse and Exception with primary and foreign keys.
+**Acceptance:** Balanced context/level-one DFDs, a CRUD matrix and a ten-field data dictionary.
 
-**Clear condition:** Declare grain and one-to-many relationships; avoid repeating carrier names on dimension rows.
+**Advanced extension:** Find a data flow that lacks a justified business purpose or an authorised owner.
 
-**Speaking drill:** Walk through your query in plain language before discussing SQL syntax.
+**Speaking:** Give a 60-second update: goal, progress, blocker, next step and one clear request.
 
-**Learn:** [Microsoft Learn · Query with T-SQL](https://learn.microsoft.com/en-us/training/paths/get-started-querying-with-transact-sql/)
+**Primary reference:** [diagrams.net · modelling documentation](https://www.diagrams.net/doc/)
 
-### Day 37 · Query your first table
+### Day 25 · Design the future state
 
-**Tools:** SQL Server / SQLite. **Techniques:** SELECT, WHERE, ORDER BY, NULL.
+**Tools:** diagrams.net, Excel, Word. **Techniques:** Gap analysis, capability assessment, target operating model, option evaluation.
 
-**Build:** Load the starter SQL in SQLite or adapt it to SQL Server; write six filter queries.
+**Assignment:** Define the future process, roles, capabilities, controls and measurement approach.
 
-**Clear condition:** Predict row counts for two queries and confirm NULL uses IS NULL rather than equality.
+**Do on your PC:**
 
-**Speaking drill:** Walk through your query in plain language before discussing SQL syntax.
+1. Create a current/future capability heatmap.
+2. Build a to-be process and compare people, process, data and technology changes.
+3. Write a staged transition roadmap and identify dependencies and operational risks.
 
-**Learn:** [Microsoft Learn · Query with T-SQL](https://learn.microsoft.com/en-us/training/paths/get-started-querying-with-transact-sql/)
+**Acceptance:** Every significant current/future gap has a proposed change, owner, dependency and measure.
 
-### Day 38 · Aggregate with care
+**Advanced extension:** Recommend an incremental transition when a full replacement is unaffordable.
 
-**Tools:** SQL editor. **Techniques:** GROUP BY, HAVING, COUNT, SUM, AVG.
+**Speaking:** Give a 60-second update: goal, progress, blocker, next step and one clear request.
 
-**Build:** Calculate delivered counts, average transit time and late rate by carrier.
+**Primary reference:** [OMG · BPMN specification](https://www.omg.org/spec/BPMN/2.0/)
 
-**Clear condition:** Exclude undelivered rows from delivery KPI denominators; show numerator and denominator.
+### Day 26 · Prototype and evaluate usability
 
-**Speaking drill:** Walk through your query in plain language before discussing SQL syntax.
+**Tools:** Figma or Penpot, diagrams.net. **Techniques:** Wireframing, information architecture, prototyping, heuristic evaluation, accessibility.
 
-**Learn:** [Microsoft Learn · Query with T-SQL](https://learn.microsoft.com/en-us/training/paths/get-started-querying-with-transact-sql/)
+**Assignment:** Design request submission, request tracking and agent triage screens with error/empty/loading states.
 
-### Day 39 · Join without inflation
+**Do on your PC:**
 
-**Tools:** SQL editor. **Techniques:** INNER JOIN, LEFT JOIN, join cardinality.
+1. Create desktop wireframes and connect the main user journey.
+2. Annotate validation, keyboard order, labels, errors and responsive behaviour.
+3. Run three simulated user tasks and record observations and design revisions.
 
-**Build:** Join shipments to carriers and warehouses and compare row counts before/after.
+**Acceptance:** A clickable or linked prototype, three task-based usability tests and an accessibility checklist.
 
-**Clear condition:** No unexplained increase in shipment rows; unmatched keys are reported separately.
+**Advanced extension:** Handle a long form, low-vision user and interrupted submission without relying on colour alone.
 
-**Speaking drill:** Walk through your query in plain language before discussing SQL syntax.
+**Speaking:** Give a 60-second update: goal, progress, blocker, next step and one clear request.
 
-**Learn:** [Microsoft Learn · Query with T-SQL](https://learn.microsoft.com/en-us/training/paths/get-started-querying-with-transact-sql/)
+**Primary reference:** [Penpot · user guide](https://help.penpot.app/user-guide/)
 
-### Day 40 · Express business logic
+### Day 27 · Write delivery-ready stories
 
-**Tools:** SQL editor. **Techniques:** CASE, COALESCE, date logic.
+**Tools:** Jira or spreadsheet, Word. **Techniques:** User stories, INVEST, story mapping, MVP, Given-When-Then, BDD.
 
-**Build:** Classify shipments as open, on-time or late and flag invalid delivery dates.
+**Assignment:** Translate requirements into small vertical slices with observable acceptance examples.
 
-**Clear condition:** Five edge cases have expected outputs; use dialect-appropriate date functions.
+**Do on your PC:**
 
-**Speaking drill:** Walk through your query in plain language before discussing SQL syntax.
+1. Create a user story map from request creation to closure.
+2. Write stories with user, capability, value and linked requirement IDs.
+3. Add Given-When-Then examples and split any story containing independently valuable outcomes.
 
-**Learn:** [Microsoft Learn · Query with T-SQL](https://learn.microsoft.com/en-us/training/paths/get-started-querying-with-transact-sql/)
+**Acceptance:** Three epics, twelve INVEST-reviewed stories and positive/negative/boundary scenarios.
 
-### Day 41 · Break a complex question down
+**Advanced extension:** Split a large reporting story into useful increments without losing end-to-end value.
 
-**Tools:** SQL editor. **Techniques:** CTE, subquery, readable SQL.
+**Speaking:** Give a 60-second update: goal, progress, blocker, next step and one clear request.
 
-**Build:** Find carriers with a worse late rate than the network average using a CTE.
+**Primary reference:** [OMG · BPMN specification](https://www.omg.org/spec/BPMN/2.0/)
 
-**Clear condition:** Explain grain at each step and verify the result on one carrier manually.
+### Day 28 · Dungeon 04: solution design defence
 
-**Speaking drill:** Walk through your query in plain language before discussing SQL syntax.
+**Tools:** Figma, diagrams.net, PowerPoint. **Techniques:** Design review, feasibility, option tradeoffs, cross-model consistency.
 
-**Learn:** [Microsoft Learn · Query with T-SQL](https://learn.microsoft.com/en-us/training/paths/get-started-querying-with-transact-sql/)
+**Assignment:** Defend the future process, models, prototype, stories and MVP scope as one solution design.
 
-### Day 42 · Dungeon 06: SQL investigation
+**Do on your PC:**
 
-**Tools:** SQL editor, Docs. **Techniques:** Window functions, quality assertions.
+1. Build a design-review checklist and trace three user journeys across every model.
+2. Correct contradictions and record design decisions.
+3. Deliver a six-minute walkthrough to simulated business, engineering and QA reviewers.
 
-**Build:** Rank carriers and identify duplicate external references using ROW_NUMBER; save eight reviewed queries.
+**Acceptance:** Terms, business rules, data entities and acceptance examples are consistent across artifacts.
 
-**Clear condition:** Add comments with business question, denominator and limitation for every KPI query.
+**Advanced extension:** Rework the design after introducing an offline requirement or a delayed integration.
 
-**Speaking drill:** Walk through your query in plain language before discussing SQL syntax.
+**Speaking:** Give a 60-second update: goal, progress, blocker, next step and one clear request.
 
-**Learn:** [Microsoft Learn · Query with T-SQL](https://learn.microsoft.com/en-us/training/paths/get-started-querying-with-transact-sql/)
+**Primary reference:** [OMG · BPMN specification](https://www.omg.org/spec/BPMN/2.0/)
 
-### Day 43 · Connect and transform
+### Day 29 · Choose the delivery approach
 
-**Tools:** Power BI Desktop or Excel fallback. **Techniques:** Power Query, reproducible ETL.
+**Tools:** Scrum Guide, Word, Excel. **Techniques:** Waterfall, Scrum, Kanban, Lean, hybrid delivery, DevOps overview.
 
-**Build:** Load the synthetic data and carrier dimension into Power BI; apply documented cleaning rules.
+**Assignment:** Compare a fixed regulatory-reporting change, a new booking product and a support-process improvement.
 
-**Clear condition:** Refresh succeeds; row counts match your Excel control totals.
+**Do on your PC:**
 
-**Speaking drill:** Present one finding with evidence, limitation and a recommendation in two minutes.
+1. Create a delivery-model comparison with accountabilities, events, artifacts and flow measures.
+2. Sketch the SDLC from discovery through production evaluation.
+3. Identify where BA work continues during delivery and operations.
 
-**Learn:** [Microsoft Learn · Power BI](https://learn.microsoft.com/en-us/training/powerplatform/power-bi)
+**Acceptance:** A justified approach per scenario, covering feedback, risk, governance and delivery constraints.
 
-### Day 44 · Model for analysis
+**Advanced extension:** Explain how frequent deployments can coexist with formal business approval controls.
 
-**Tools:** Power BI Desktop. **Techniques:** Star schema, relationships, date table.
+**Speaking:** Explain one metric: definition, denominator, data limitation and operational implication.
 
-**Build:** Create fact shipments, carrier, warehouse and date dimensions with explicit relationship directions.
+**Primary reference:** [The official Scrum Guide](https://scrumguides.org/download.html)
 
-**Clear condition:** Keys are unique on dimension sides; distinguish dispatch date from delivery date.
+### Day 30 · Boss 01: analysis and design gate
 
-**Speaking drill:** Present one finding with evidence, limitation and a recommendation in two minutes.
+**Tools:** PowerPoint, Word, Excel, diagrams.net. **Techniques:** Strategy-to-requirement traceability, stakeholder defence, quality review.
 
-**Learn:** [Microsoft Learn · Power BI](https://learn.microsoft.com/en-us/training/powerplatform/power-bi)
+**Assignment:** Submit a complete general BA case covering problem, business case, discovery, requirements, models and solution options.
 
-### Day 45 · Write measures
+**Do on your PC:**
 
-**Tools:** Power BI Desktop. **Techniques:** DAX measures, CALCULATE, DIVIDE.
+1. Assemble Case_01 with a README and clickable artifact links.
+2. Use the review rubric to verify objectives, model consistency and requirements coverage.
+3. Record a sponsor briefing and answer five challenging questions.
 
-**Build:** Create Delivered, Late Deliveries, Late Rate and Open Shipments measures.
+**Acceptance:** A reproducible discovery/design pack and a five-minute recommendation; no unsupported benefits or fictional approvals presented as real.
 
-**Clear condition:** DIVIDE handles a zero denominator; totals match your SQL on the same cleaned data.
+**Advanced extension:** Explain which recommendation would change if budget, demand or risk tolerance changed.
 
-**Speaking drill:** Present one finding with evidence, limitation and a recommendation in two minutes.
+**Speaking:** Explain one metric: definition, denominator, data limitation and operational implication.
 
-**Learn:** [Microsoft Learn · Power BI](https://learn.microsoft.com/en-us/training/powerplatform/power-bi)
+**Primary reference:** [Atlassian · Jira + Confluence](https://support.atlassian.com/confluence-cloud/docs/use-jira-and-confluence-together/)
 
-### Day 46 · Design for a decision
+### Day 31 · Build a delivery workspace
 
-**Tools:** Power BI Desktop, paper. **Techniques:** KPI hierarchy, visual choice, accessibility.
+**Tools:** Jira, Confluence or Markdown, Excel. **Techniques:** Epics, stories, subtasks, workflow states, linked documentation.
 
-**Build:** Build an overview with filters, trend, carrier comparison and exception detail.
+**Assignment:** Create a practice backlog and link business context, requirements, designs and decisions.
 
-**Clear condition:** Every visual answers a named stakeholder question; labels and colour do not mislead.
+**Do on your PC:**
 
-**Speaking drill:** Present one finding with evidence, limitation and a recommendation in two minutes.
+1. Create a practice Jira project if available; otherwise reproduce the same fields in Excel.
+2. Configure a simple backlog/ready/in-progress/review/done workflow.
+3. Link the BRD, models, story acceptance criteria and decision log.
 
-**Learn:** [Microsoft Learn · Power BI](https://learn.microsoft.com/en-us/training/powerplatform/power-bi)
+**Acceptance:** A usable board with three epics, twelve stories, dependencies and documentation links.
 
-### Day 47 · Analyse causes carefully
+**Advanced extension:** Design a workflow exception for a story blocked by an external team.
 
-**Tools:** Power BI, Excel. **Techniques:** Segmentation, cohort, correlation vs causation.
+**Speaking:** Explain one metric: definition, denominator, data limitation and operational implication.
 
-**Build:** Compare late rates across carrier, warehouse and service level.
+**Primary reference:** [Atlassian · Jira + Confluence](https://support.atlassian.com/confluence-cloud/docs/use-jira-and-confluence-together/)
 
-**Clear condition:** Show denominators; distinguish an observed association from a verified cause.
+### Day 32 · Plan realistic iterations
 
-**Speaking drill:** Present one finding with evidence, limitation and a recommendation in two minutes.
+**Tools:** Jira or Excel, Scrum Guide. **Techniques:** Refinement, story points, planning poker, capacity, Sprint Goal, DoR/DoD.
 
-**Learn:** [Microsoft Learn · Power BI](https://learn.microsoft.com/en-us/training/powerplatform/power-bi)
+**Assignment:** Refine six stories and plan an iteration with an explicit goal and capacity constraints.
 
-### Day 48 · Add drill-through
+**Do on your PC:**
 
-**Tools:** Power BI Desktop. **Techniques:** Drill-through, tooltips, report usability.
+1. Create a refinement checklist and score unresolved risks.
+2. Estimate using relative sizing and compare with a three-point time estimate without treating points as hours.
+3. Build a capacity sheet and select stories that support one Sprint Goal.
 
-**Build:** Add a carrier detail page and test filter interactions with three user tasks.
+**Acceptance:** A feasible sprint plan, assumptions, dependency handling and evidence-based Definition of Done.
 
-**Clear condition:** Users can answer the three tasks without changing the data; document reset instructions.
+**Advanced extension:** Replan after losing a team member or discovering an unestimated integration dependency.
 
-**Speaking drill:** Present one finding with evidence, limitation and a recommendation in two minutes.
+**Speaking:** Explain one metric: definition, denominator, data limitation and operational implication.
 
-**Learn:** [Microsoft Learn · Power BI](https://learn.microsoft.com/en-us/training/powerplatform/power-bi)
+**Primary reference:** [The official Scrum Guide](https://scrumguides.org/download.html)
 
-### Day 49 · Dungeon 07: insight briefing
+### Day 33 · Understand flow and query the backlog
 
-**Tools:** Power BI, Slides. **Techniques:** Data storytelling, recommendation.
+**Tools:** Jira or Excel. **Techniques:** Kanban, WIP limits, lead/cycle time, throughput, CFD, JQL.
 
-**Build:** Record a three-minute report walkthrough: finding, evidence, limitation, action.
+**Assignment:** Analyse a synthetic work-item log and configure a board/query set that exposes ageing and blocked work.
 
-**Clear condition:** Reconcile the report to SQL and Excel; make one recommendation without inventing business savings.
+**Do on your PC:**
 
-**Speaking drill:** Present one finding with evidence, limitation and a recommendation in two minutes.
+1. Create a 20-item synthetic event log with start/finish dates.
+2. Calculate lead time, cycle time, throughput and ageing in Excel.
+3. Save five JQL filters in Jira or document their equivalent filter logic.
 
-**Learn:** [Microsoft Learn · Power BI](https://learn.microsoft.com/en-us/training/powerplatform/power-bi)
+**Acceptance:** Correct flow metrics with timestamp definitions, a cumulative-flow view and five useful filters.
 
-### Day 50 · Trace the system landscape
+**Advanced extension:** Explain why a lower average cycle time can hide an ageing tail.
 
-**Tools:** diagrams.net, SAP Learning. **Techniques:** System context, SAP TM/MM and TMS mapping.
+**Speaking:** Explain one metric: definition, denominator, data limitation and operational implication.
 
-**Build:** Draw a conceptual ERP → TMS → WMS landscape using only generic training examples.
+**Primary reference:** [Atlassian · Jira + Confluence](https://support.atlassian.com/confluence-cloud/docs/use-jira-and-confluence-together/)
 
-**Clear condition:** Label master vs transactional data and system of record; do not imply access to live SAP or Blue Yonder.
+### Day 34 · Plan releases and govern change
 
-**Speaking drill:** Explain the system flow to a warehouse planner without using unexplained technical terms.
+**Tools:** Excel, Jira, PowerPoint. **Techniques:** Roadmapping, RICE, WSJF, release slicing, dependency/risk management.
 
-**Learn:** [Postman · Send your first request](https://learning.postman.com/docs/getting-started/first-steps/sending-the-first-request/)
+**Assignment:** Create a release roadmap and assess a mid-delivery scope change against value, capacity and business risk.
 
-### Day 51 · Understand a contract
+**Do on your PC:**
 
-**Tools:** Postman, text editor. **Techniques:** HTTP methods, JSON, request/response.
+1. Create a roadmap with outcomes, dependencies and acceptance gates.
+2. Compare RICE and WSJF on the same features using stated assumptions.
+3. Write an impact assessment and update the versioned decision log.
 
-**Build:** Inspect a public practice request in Postman and write a mock delivery-change JSON contract.
+**Acceptance:** A staged release plan, changed RTM/backlog and a documented approval recommendation.
 
-**Clear condition:** Specify required fields, types, example values and expected success response.
+**Advanced extension:** Negotiate a fixed deadline when the must-have scope exceeds feasible capacity.
 
-**Speaking drill:** Explain the system flow to a warehouse planner without using unexplained technical terms.
+**Speaking:** Explain one metric: definition, denominator, data limitation and operational implication.
 
-**Learn:** [Postman · Send your first request](https://learning.postman.com/docs/getting-started/first-steps/sending-the-first-request/)
+**Primary reference:** [Atlassian · Jira + Confluence](https://support.atlassian.com/confluence-cloud/docs/use-jira-and-confluence-together/)
 
-### Day 52 · Design failure behaviour
+### Day 35 · Dungeon 05: delivery simulation
 
-**Tools:** Postman, Docs. **Techniques:** Status codes, validation, idempotency.
+**Tools:** Jira or Excel, PowerPoint. **Techniques:** Sprint review, retrospective, flow analysis, delivery governance.
 
-**Build:** Document duplicate, invalid capacity, unauthorised and unavailable-service outcomes.
+**Assignment:** Simulate an iteration from refinement through review and use actual practice evidence to improve the next iteration.
 
-**Clear condition:** Each failure has user feedback, retry guidance, logging and an owner.
+**Do on your PC:**
 
-**Speaking drill:** Explain the system flow to a warehouse planner without using unexplained technical terms.
+1. Move mock work through the board while recording state changes.
+2. Demonstrate two prototype stories against their acceptance criteria.
+3. Write a retrospective with owner, metric and next review date.
 
-**Learn:** [Postman · Send your first request](https://learning.postman.com/docs/getting-started/first-steps/sending-the-first-request/)
+**Acceptance:** A coherent board, a goal-based review, a defect/blocker example and one measurable improvement.
 
-### Day 53 · Map source to target
+**Advanced extension:** Defend a decision to postpone a feature rather than weaken the Definition of Done.
 
-**Tools:** Excel, Docs. **Techniques:** Interface mapping, transformations, reference data.
+**Speaking:** Explain one metric: definition, denominator, data limitation and operational implication.
 
-**Build:** Map carrier code, delivery date, slot and warehouse across two mock systems.
+**Primary reference:** [Atlassian · Jira + Confluence](https://support.atlassian.com/confluence-cloud/docs/use-jira-and-confluence-together/)
 
-**Clear condition:** Include source/target types, required flags, transformation and rejected-record handling.
+### Day 36 · Profile and clean data
 
-**Speaking drill:** Explain the system flow to a warehouse planner without using unexplained technical terms.
+**Tools:** Excel, Power Query or LibreOffice. **Techniques:** Grain, data quality dimensions, profiling, deduplication, missingness.
 
-**Learn:** [Postman · Send your first request](https://learning.postman.com/docs/getting-started/first-steps/sending-the-first-request/)
+**Assignment:** Inspect the supplied synthetic service-request data and build a reproducible cleaning policy.
 
-### Day 54 · Define governance
+**Do on your PC:**
 
-**Tools:** Docs, Excel. **Techniques:** Master data stewardship, lineage, access.
+1. Download service_requests.csv and preserve an untouched Raw copy.
+2. Import with explicit types and profile duplicates, missing dates, invalid dates and unknown team keys.
+3. Record each transformation and reconcile 185 raw rows to 182 unique request IDs.
 
-**Build:** Create a carrier master ownership matrix and change/approval flow.
+**Acceptance:** Raw/clean row reconciliation, null/type checks, duplicate rules and an issue log.
 
-**Clear condition:** Every critical field has an owner, validation rule and audit requirement.
+**Advanced extension:** Explain why repeated external references should be investigated rather than blindly removed.
 
-**Speaking drill:** Explain the system flow to a warehouse planner without using unexplained technical terms.
+**Speaking:** Walk through your query in plain language before discussing SQL syntax.
 
-**Learn:** [Postman · Send your first request](https://learning.postman.com/docs/getting-started/first-steps/sending-the-first-request/)
+**Primary reference:** [Microsoft · Excel help & learning](https://support.microsoft.com/en-us/excel)
 
-### Day 55 · Protect integration quality
+### Day 37 · Use advanced spreadsheet techniques
 
-**Tools:** Docs, diagrams.net. **Techniques:** Reconciliation, timeout, retry, audit trail.
+**Tools:** Excel, Power Query. **Techniques:** XLOOKUP, INDEX/MATCH, SUMIFS, COUNTIFS, IF/IFS, date logic, PivotTables, merge/append.
 
-**Build:** Design an integration checklist for missed events, duplicates and partial failures.
+**Assignment:** Create a refreshable request tracker and KPI summary with controlled lookup and aggregation logic.
 
-**Clear condition:** Specify how counts/totals reconcile and how a human can resolve failed messages.
+**Do on your PC:**
 
-**Speaking drill:** Explain the system flow to a warehouse planner without using unexplained technical terms.
+1. Create mapping tables for teams and categories and merge or look them up.
+2. Calculate resolved/open counts, overdue flags and resolution duration using documented eligibility rules.
+3. Build PivotTables with slicers or equivalent filters and add reconciliation checks.
 
-**Learn:** [Postman · Send your first request](https://learning.postman.com/docs/getting-started/first-steps/sending-the-first-request/)
+**Acceptance:** Formulas reconcile to a manual sample; invalid/open records are treated consistently.
 
-### Day 56 · Dungeon 08: integration review
+**Advanced extension:** Demonstrate how a one-to-many lookup or merge can inflate counts.
 
-**Tools:** Docs, Slides. **Techniques:** Sequence diagram, contract review.
+**Speaking:** Walk through your query in plain language before discussing SQL syntax.
 
-**Build:** Present a delivery change journey across mailbox, exception service, approver and TMS.
+**Primary reference:** [Microsoft · Excel help & learning](https://support.microsoft.com/en-us/excel)
 
-**Clear condition:** Show happy path plus timeout and rejection; align payloads with the source-to-target mapping.
+### Day 38 · Reason with statistics
 
-**Speaking drill:** Explain the system flow to a warehouse planner without using unexplained technical terms.
+**Tools:** Excel, charts. **Techniques:** Mean/median, percentiles, dispersion, outliers, sampling, correlation, scenario analysis.
 
-**Learn:** [Postman · Send your first request](https://learning.postman.com/docs/getting-started/first-steps/sending-the-first-request/)
+**Assignment:** Compare request resolution performance by team and priority without confusing association with causation.
 
-### Day 57 · Plan the test strategy
+**Do on your PC:**
 
-**Tools:** Docs, Excel. **Techniques:** Test levels, risk-based testing.
+1. Calculate mean, median, percentile and standard deviation on eligible resolved requests.
+2. Compare team distributions and sample sizes with suitable charts.
+3. Build a what-if scenario and explain why a time-based or controlled pilot is needed for causal claims.
 
-**Build:** Define UAT scope, roles, environment, entry/exit criteria and test data needs.
+**Acceptance:** Distributions, denominators, outlier rules and clearly qualified conclusions.
 
-**Clear condition:** Prioritise risks; distinguish system integration testing from business acceptance.
+**Advanced extension:** Show how aggregation can hide subgroup differences and how you would test that concern.
 
-**Speaking drill:** Defend a test outcome: business risk, evidence, recommendation and decision owner.
+**Speaking:** Walk through your query in plain language before discussing SQL syntax.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Primary reference:** [Microsoft · Excel help & learning](https://support.microsoft.com/en-us/excel)
 
-### Day 58 · Write executable cases
+### Day 39 · Design a relational model
 
-**Tools:** Excel or Jira. **Techniques:** Test design, equivalence classes, boundaries.
+**Tools:** diagrams.net, DB Browser for SQLite, Excel. **Techniques:** ERD, keys, cardinality, normalisation, data dictionary.
 
-**Build:** Write ten UAT cases linked to requirements with steps, inputs and expected results.
+**Assignment:** Model Request, Team, Category, Customer and StatusHistory; distinguish transactional history from current state.
 
-**Clear condition:** Cover full slot, last available slot, invalid date, duplicate and rejected approval.
+**Do on your PC:**
 
-**Speaking drill:** Defend a test outcome: business risk, evidence, recommendation and decision owner.
+1. Draw conceptual and logical ERDs in diagrams.net.
+2. Identify first/second/third normal-form issues in a deliberately flattened sheet.
+3. Create a local SQLite database and inspect tables in the supplied practice script.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Acceptance:** An ERD, key/cardinality rules and a data dictionary with grain and validation constraints.
 
-### Day 59 · Prepare safe test data
+**Advanced extension:** Explain how status-history joins change the grain and can duplicate request measures.
 
-**Tools:** Excel, SQL. **Techniques:** Test data design, anonymisation, negative cases.
+**Speaking:** Walk through your query in plain language before discussing SQL syntax.
 
-**Build:** Create normal, boundary, invalid and missing-data test records.
+**Primary reference:** [Microsoft Learn · Query with T-SQL](https://learn.microsoft.com/en-us/training/paths/get-started-querying-with-transact-sql/)
 
-**Clear condition:** Use synthetic records only; include expected results and isolate destructive scenarios.
+### Day 40 · Query with precise business logic
 
-**Speaking drill:** Defend a test outcome: business risk, evidence, recommendation and decision owner.
+**Tools:** DB Browser for SQLite or DBeaver. **Techniques:** SELECT, WHERE, ORDER BY, CASE, COALESCE, NULL, date functions.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Assignment:** Write eight queries that filter, classify and order service requests from business questions.
 
-### Day 60 · Boss 02: the evidence gate
+**Do on your PC:**
 
-**Tools:** SQL, Power BI, Slides. **Techniques:** Data + integration + test review.
+1. Open practice.sql in a new local practice database and execute it.
+2. Save named queries for open requests, invalid dates, unknown teams and overdue resolution.
+3. Compare SQLite date syntax with the T-SQL reference and annotate dialect differences.
 
-**Build:** Demo the dashboard and integration contract; show the UAT plan and KPI reconciliation.
+**Acceptance:** Queries include normal, null and boundary examples with predicted results.
 
-**Clear condition:** Supply cleaned data, SQL, dashboard screenshots, mapping and ten UAT cases; log all unresolved defects.
+**Advanced extension:** Explain why NULL comparisons require IS NULL and why date strings need a declared format.
 
-**Speaking drill:** Defend a test outcome: business risk, evidence, recommendation and decision owner.
+**Speaking:** Walk through your query in plain language before discussing SQL syntax.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Primary reference:** [Microsoft Learn · Query with T-SQL](https://learn.microsoft.com/en-us/training/paths/get-started-querying-with-transact-sql/)
 
-### Day 61 · Run and triage
+### Day 41 · Join and aggregate safely
 
-**Tools:** Excel or Jira. **Techniques:** Test execution, severity vs priority, defect lifecycle.
+**Tools:** SQLite or SQL Server, Excel. **Techniques:** INNER/LEFT JOIN, GROUP BY, HAVING, COUNT DISTINCT, grain control.
 
-**Build:** Execute the ten UAT cases against your paper prototype or mock rules and log results.
+**Assignment:** Calculate request counts, eligible resolution time and on-time rate by team/category.
 
-**Clear condition:** Record actual vs expected, evidence and severity; label simulation clearly.
+**Do on your PC:**
 
-**Speaking drill:** Defend a test outcome: business risk, evidence, recommendation and decision owner.
+1. Write pre-join and post-join count checks.
+2. Join teams/categories using their unique keys and report unmatched records separately.
+3. Calculate eligible KPIs and manually verify one team against Excel.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Acceptance:** Numerators, denominators and join row counts reconcile to the cleaning policy.
 
-### Day 62 · Recommend readiness
+**Advanced extension:** Construct a deliberately multiplying join and demonstrate how you detect and repair it.
 
-**Tools:** Docs, Excel. **Techniques:** RTM coverage, exit criteria, go/no-go.
+**Speaking:** Walk through your query in plain language before discussing SQL syntax.
 
-**Build:** Calculate requirement-to-test coverage; create a release recommendation with residual risks.
+**Primary reference:** [Microsoft Learn · Query with T-SQL](https://learn.microsoft.com/en-us/training/paths/get-started-querying-with-transact-sql/)
 
-**Clear condition:** Explain blocked vs failed vs passed tests; do not treat high coverage as proof of quality.
+### Day 42 · Dungeon 06: structured SQL investigation
 
-**Speaking drill:** Defend a test outcome: business risk, evidence, recommendation and decision owner.
+**Tools:** SQLite or SQL Server, Word. **Techniques:** CTEs, subqueries, UNION/EXCEPT, quality assertions.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Assignment:** Answer five business questions with readable staged SQL and preserve a reproducible query pack.
 
-### Day 63 · Dungeon 09: UAT command
+**Do on your PC:**
 
-**Tools:** Docs, Jira, Slides. **Techniques:** Defect triage, business sign-off.
+1. Create named CTEs that separate cleaning, eligibility and aggregation.
+2. Compare teams with the overall baseline and use a subquery or set operation for a second question.
+3. Save Query_Pack.sql and a plain-language findings memo.
 
-**Build:** Host a mock UAT triage and write an evidence-based conditional go/no-go decision.
+**Acceptance:** At least eight saved queries with comments, eligibility rules, expected checks and limitations.
 
-**Clear condition:** Include defect owners, business impact and sign-off criteria; no fabricated stakeholder approvals.
+**Advanced extension:** Find a case where COUNT(*) and COUNT(column) produce different business interpretations.
 
-**Speaking drill:** Defend a test outcome: business risk, evidence, recommendation and decision owner.
+**Speaking:** Walk through your query in plain language before discussing SQL syntax.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Primary reference:** [Microsoft Learn · Query with T-SQL](https://learn.microsoft.com/en-us/training/paths/get-started-querying-with-transact-sql/)
 
-### Day 64 · Plan the change
+### Day 43 · Master analytical SQL
 
-**Tools:** Docs, Excel. **Techniques:** Change impact assessment, readiness.
+**Tools:** SQLite or SQL Server. **Techniques:** ROW_NUMBER, RANK/DENSE_RANK, LAG/LEAD, running totals, window frames.
 
-**Build:** Map what changes for planners, carriers, warehouse operators and support.
+**Assignment:** Rank performance, detect repeated references and analyse request trends using window functions.
 
-**Clear condition:** For each group, document impact, readiness risk, training and support owner.
+**Do on your PC:**
 
-**Speaking drill:** Teach the changed process with one normal example and one exception.
+1. Write row-number duplicate checks and rank teams by eligible on-time rate.
+2. Add a running request total and a previous-period comparison using a suitable date series.
+3. Explain tie handling and confirm that missing dates do not distort the trend.
 
-**Learn:** [Microsoft Learn · Power Automate](https://learn.microsoft.com/en-us/training/powerplatform/power-automate)
+**Acceptance:** Four working window queries with partition/order/frame explanations and checked edge cases.
 
-### Day 65 · Write an operational SOP
+**Advanced extension:** Compare ROWS and RANGE behaviour where ordering values repeat.
 
-**Tools:** Docs, screenshots. **Techniques:** SOP, exception escalation, handover.
+**Speaking:** Present one finding with evidence, limitation and a recommendation in two minutes.
 
-**Build:** Write a delivery-change SOP with trigger, roles, steps, escalation and version control.
+**Primary reference:** [Microsoft Learn · Query with T-SQL](https://learn.microsoft.com/en-us/training/paths/get-started-querying-with-transact-sql/)
 
-**Clear condition:** Someone unfamiliar with the design can follow the steps and find the escalation route.
+### Day 44 · Analyse product and service behaviour
 
-**Speaking drill:** Teach the changed process with one normal example and one exception.
+**Tools:** SQL, Excel. **Techniques:** Segmentation, cohorts, retention, funnels, KPI definitions, hypothesis testing.
 
-**Learn:** [Microsoft Learn · Power Automate](https://learn.microsoft.com/en-us/training/powerplatform/power-automate)
+**Assignment:** Analyse the request dataset and create a clearly separate synthetic booking-event funnel to practise product metrics.
 
-### Day 66 · Make training useful
+**Do on your PC:**
 
-**Tools:** Slides, voice recorder. **Techniques:** Role-based training, teach-back.
+1. Segment eligible request metrics by team, priority and channel.
+2. Create a small booking-event sheet with user IDs, event names and timestamps.
+3. Calculate a funnel and a cohort table while documenting repeat events and observation windows.
 
-**Build:** Create a five-slide planner training pack and deliver a short demonstration.
+**Acceptance:** A service analysis plus a labelled event/cohort example with valid denominators and time windows.
 
-**Clear condition:** Include one normal task and one recovery task; add three teach-back questions.
+**Advanced extension:** Explain why incomplete observation periods bias retention and completion metrics.
 
-**Speaking drill:** Teach the changed process with one normal example and one exception.
+**Speaking:** Present one finding with evidence, limitation and a recommendation in two minutes.
 
-**Learn:** [Microsoft Learn · Power Automate](https://learn.microsoft.com/en-us/training/powerplatform/power-automate)
+**Primary reference:** [Microsoft Learn · Query with T-SQL](https://learn.microsoft.com/en-us/training/paths/get-started-querying-with-transact-sql/)
 
-### Day 67 · Select the automation
+### Day 45 · Read data pipelines critically
 
-**Tools:** Power Automate or flow diagram. **Techniques:** Automation suitability, human-in-the-loop, controls.
+**Tools:** SQLite, diagrams.net, Word. **Techniques:** Views, ETL/ELT, indexes, EXPLAIN, permissions, transactions, lineage.
 
-**Build:** Design mailbox classification → capacity check → human approval → update → audit.
+**Assignment:** Describe how operational data becomes analysis-ready and inspect a query plan in a local sandbox.
 
-**Clear condition:** List permissions, error queue and manual fallback; keep live external actions disabled in practice.
+**Do on your PC:**
 
-**Speaking drill:** Teach the changed process with one normal example and one exception.
+1. Create a saved view for eligible requests in the local database.
+2. Run EXPLAIN QUERY PLAN before/after a practice index on a copy of the data.
+3. Draw source → staging → transformation → reporting with controls and owners.
 
-**Learn:** [Microsoft Learn · Power Automate](https://learn.microsoft.com/en-us/training/powerplatform/power-automate)
+**Acceptance:** A data-flow model, read-only access plan and explanation of one index/query-plan tradeoff.
 
-### Day 68 · Build a safe prototype
+**Advanced extension:** Explain atomicity and why a partial refresh could give a misleading dashboard.
 
-**Tools:** Power Automate sandbox or paper. **Techniques:** Flow triggers, conditions, approval routing.
+**Speaking:** Present one finding with evidence, limitation and a recommendation in two minutes.
 
-**Build:** Build a mock flow using manual/sample input and route the decision to a test log.
+**Primary reference:** [Microsoft Learn · Query with T-SQL](https://learn.microsoft.com/en-us/training/paths/get-started-querying-with-transact-sql/)
 
-**Clear condition:** Normal, rejection and malformed-input cases produce expected mock outcomes; no live booking updates.
+### Day 46 · Build a semantic model
 
-**Speaking drill:** Teach the changed process with one normal example and one exception.
+**Tools:** Power BI Desktop, Power Query. **Techniques:** ETL, star schema, dimensions/facts, relationship direction, date tables.
 
-**Learn:** [Microsoft Learn · Power Automate](https://learn.microsoft.com/en-us/training/powerplatform/power-automate)
+**Assignment:** Load and model synthetic service requests for reliable self-service reporting.
 
-### Day 69 · Measure improvement
+**Do on your PC:**
 
-**Tools:** Excel, Docs. **Techniques:** A/B thinking, baseline, benefits realisation.
+1. Import requests, teams and categories; apply the same documented cleaning rules as SQL.
+2. Build a request fact and team/category/date dimensions with a proper date table.
+3. Distinguish created-date analysis from resolved-date analysis and test filter propagation.
 
-**Build:** Design a two-week pilot measurement plan for resolution time and manual touchpoints.
+**Acceptance:** Unique dimension keys, explicit relationship directions, date roles and reconciled counts.
 
-**Clear condition:** Define comparison group/time window, sample size caveat, guardrails and data owner.
+**Advanced extension:** Model an inactive date relationship and explain when a measure would activate it.
 
-**Speaking drill:** Teach the changed process with one normal example and one exception.
+**Speaking:** Present one finding with evidence, limitation and a recommendation in two minutes.
 
-**Learn:** [Microsoft Learn · Power Automate](https://learn.microsoft.com/en-us/training/powerplatform/power-automate)
+**Primary reference:** [Microsoft Learn · Power BI](https://learn.microsoft.com/en-us/training/powerplatform/power-bi)
 
-### Day 70 · Dungeon 10: adoption launch
+### Day 47 · Write and validate DAX
 
-**Tools:** Docs, Slides. **Techniques:** Readiness review, rollback, support model.
+**Tools:** Power BI Desktop. **Techniques:** Measures vs calculated columns, filter context, CALCULATE, DIVIDE, time intelligence.
 
-**Build:** Package SOP, training, pilot plan and a rollback decision tree.
+**Assignment:** Create measures for resolved, open, eligible on-time rate, average duration and a period comparison.
 
-**Clear condition:** Name launch owner, rollback triggers and support routes; separate expected from proven benefits.
+**Do on your PC:**
 
-**Speaking drill:** Teach the changed process with one normal example and one exception.
+1. Write base count measures and use DIVIDE for the rate.
+2. Implement the eligibility rules and a prior-period comparison using the date table.
+3. Verify each measure with an exported sample and a manual calculation.
 
-**Learn:** [Microsoft Learn · Power Automate](https://learn.microsoft.com/en-us/training/powerplatform/power-automate)
+**Acceptance:** DAX totals match SQL under the same filters, with zero/blank handling and explicit date context.
 
-### Day 71 · Choose your capstone
+**Advanced extension:** Explain how row context differs from filter context and demonstrate a CALCULATE example.
 
-**Tools:** Docs, whiteboard. **Techniques:** Opportunity framing, hypothesis, scope.
+**Speaking:** Present one finding with evidence, limitation and a recommendation in two minutes.
 
-**Build:** Pick one end-to-end supply-chain BA case and write a one-page charter.
+**Primary reference:** [Microsoft Learn · Power BI](https://learn.microsoft.com/en-us/training/powerplatform/power-bi)
 
-**Clear condition:** One clear decision, three measurable outcomes and a small enough scope to finish in two weeks.
+### Day 48 · Design a usable BI product
 
-**Speaking drill:** Pitch your chosen option: problem, evidence, alternatives, risk and explicit ask.
+**Tools:** Power BI Desktop, Excel. **Techniques:** Dashboard UX, drill-through, accessibility, RLS concepts, refresh and sharing.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Assignment:** Build an overview and detail report that supports actual decisions and document how it would be governed.
 
-### Day 72 · Rebuild discovery independently
+**Do on your PC:**
 
-**Tools:** Docs, diagrams.net. **Techniques:** Stakeholder map, elicitation, process validation.
+1. Create overview, trend and request-detail pages with suitable filters and reset instructions.
+2. Add drill-through, helpful tooltips and accessible labels/colour choices.
+3. Document role-based access and refresh requirements; use local screenshots/PDF if publishing access is unavailable.
 
-**Build:** Create a new stakeholder register and as-is process for the capstone without copying blindly.
+**Acceptance:** Three task-based usability checks, consistent KPI definitions and a refresh/access plan.
 
-**Clear condition:** Label assumptions and evidence gaps; include three questions that could change your design.
+**Advanced extension:** Test whether changing a date role or cross-filter interaction silently changes a KPI denominator.
 
-**Speaking drill:** Pitch your chosen option: problem, evidence, alternatives, risk and explicit ask.
+**Speaking:** Present one finding with evidence, limitation and a recommendation in two minutes.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Primary reference:** [Microsoft Learn · Power BI](https://learn.microsoft.com/en-us/training/powerplatform/power-bi)
 
-### Day 73 · Design the solution options
+### Day 49 · Dungeon 07: evidence-led decision
 
-**Tools:** Excel, Docs. **Techniques:** Options appraisal, cost-benefit, risk.
+**Tools:** SQL, Power BI, Excel, PowerPoint. **Techniques:** Reconciliation, data storytelling, limitations, decision framing.
 
-**Build:** Compare manual improvement, light automation and system enhancement.
+**Assignment:** Present a recommended service improvement using reconciled data and a clear account of uncertainty.
 
-**Clear condition:** Use explicit scoring weights, indicative costs and uncertainty; justify a recommendation.
+**Do on your PC:**
 
-**Speaking drill:** Pitch your chosen option: problem, evidence, alternatives, risk and explicit ask.
+1. Reconcile report totals to SQL and Excel on the same sample.
+2. Create three evidence slides covering finding, limitation and recommended experiment/action.
+3. Record a walkthrough and answer questions about data quality and alternative explanations.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Acceptance:** A data dictionary, cleaning log, query pack, report and three-minute recommendation with a decision request.
 
-### Day 74 · Specify the capstone
+**Advanced extension:** Defend a recommendation when the data supports prioritisation but not a causal claim.
 
-**Tools:** Docs, Jira. **Techniques:** Requirements, story mapping, traceability.
+**Speaking:** Present one finding with evidence, limitation and a recommendation in two minutes.
 
-**Build:** Create ten requirements, six stories and acceptance criteria for the selected option.
+**Primary reference:** [Microsoft Learn · Power BI](https://learn.microsoft.com/en-us/training/powerplatform/power-bi)
 
-**Clear condition:** Each story traces to a need and test; version the scope and decision log.
+### Day 50 · Understand system architecture
 
-**Speaking drill:** Pitch your chosen option: problem, evidence, alternatives, risk and explicit ask.
+**Tools:** diagrams.net, Word. **Techniques:** System context, component boundaries, REST, events, batch, synchronous/asynchronous patterns.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Assignment:** Map a general web portal, identity provider, API, data store, notifications and reporting pipeline.
 
-### Day 75 · Create the data evidence
+**Do on your PC:**
 
-**Tools:** SQL, Excel. **Techniques:** Data preparation, quality checks, analytical SQL.
+1. Draw the architecture with generic components and labelled data flows.
+2. Compare a REST request, event notification and nightly batch for three use cases.
+3. Trace the same business request through success, timeout and partial-failure paths.
 
-**Build:** Use the synthetic shipment data or your own safe sample to answer three capstone questions.
+**Acceptance:** A system-context and sequence view with ownership, contracts and failure boundaries.
 
-**Clear condition:** Save reproducible queries and validation checks with dataset limitations.
+**Advanced extension:** Explain when an event-driven approach improves resilience and when it adds unnecessary complexity.
 
-**Speaking drill:** Pitch your chosen option: problem, evidence, alternatives, risk and explicit ask.
+**Speaking:** Explain the system flow to a non-technical service user without unexplained technical terms.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Primary reference:** [diagrams.net · modelling documentation](https://www.diagrams.net/doc/)
 
-### Day 76 · Build the decision view
+### Day 51 · Exercise APIs on your PC
 
-**Tools:** Power BI or Excel, diagrams.net. **Techniques:** Prototyping, KPI design, storytelling.
+**Tools:** Postman, JSON editor. **Techniques:** HTTP methods, headers, parameters, status codes, JSON, environments, API tests.
 
-**Build:** Create a report or wireframe that supports the capstone decision.
+**Assignment:** Create a reusable Postman collection for public echo/mock requests and document business meaning.
 
-**Clear condition:** Demonstrate three user questions and state what cannot be concluded from the sample.
+**Do on your PC:**
 
-**Speaking drill:** Pitch your chosen option: problem, evidence, alternatives, risk and explicit ask.
+1. Create a local Postman workspace and use public echo/sample endpoints with fictional payloads.
+2. Send GET and POST requests; inspect headers, status, JSON and response timing.
+3. Add assertions for status and required fields, then export the collection and a redacted environment.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Acceptance:** GET/POST examples, environment variables, response assertions and an exported collection with no secrets.
 
-### Day 77 · Dungeon 11: architecture review
+**Advanced extension:** Add pagination and a negative-input example and explain what the client should do next.
 
-**Tools:** Docs, Slides. **Techniques:** Design review, risk assessment, peer critique.
+**Speaking:** Explain the system flow to a non-technical service user without unexplained technical terms.
 
-**Build:** Review your charter, requirements, process, data and prototype as a coherent solution.
+**Primary reference:** [Postman · Send your first request](https://learning.postman.com/docs/getting-started/first-steps/sending-the-first-request/)
 
-**Clear condition:** Resolve three inconsistencies and record why you accepted remaining risks.
+### Day 52 · Specify a robust interface contract
 
-**Speaking drill:** Pitch your chosen option: problem, evidence, alternatives, risk and explicit ask.
+**Tools:** Postman, Swagger Editor or VS Code. **Techniques:** OpenAPI, JSON Schema, validation, idempotency, errors, retries, timeouts.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Assignment:** Specify a request-submission contract and its duplicate, invalid, unauthorised and unavailable-service outcomes.
 
-### Day 78 · Test your capstone
+**Do on your PC:**
 
-**Tools:** Excel, Jira. **Techniques:** Risk-based UAT, defect triage.
+1. Create an OpenAPI draft or structured API_Contract.md with request/response schemas.
+2. Add positive, boundary and malformed JSON examples and test them in a mock collection.
+3. Define idempotency ownership, correlation IDs, retry limits and a manual recovery path.
 
-**Build:** Execute eight capstone acceptance scenarios against the mock solution.
+**Acceptance:** Field definitions, sample payloads, response/error catalogue and retry/idempotency rules.
 
-**Clear condition:** Store inputs, expected/actual results and evidence; trace every critical requirement.
+**Advanced extension:** Handle a retry after the client times out but the server may already have created the record.
 
-**Speaking drill:** Answer a challenge with a position, evidence and practical next step; record and review it.
+**Speaking:** Explain the system flow to a non-technical service user without unexplained technical terms.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Primary reference:** [OpenAPI specification](https://spec.openapis.org/oas/latest.html)
 
-### Day 79 · Prepare the recommendation
+### Day 53 · Map and govern data
 
-**Tools:** Slides, Excel. **Techniques:** Executive narrative, options, decision request.
+**Tools:** Excel, diagrams.net. **Techniques:** Source-to-target mapping, lineage, master/reference data, ownership, validation.
 
-**Build:** Build five slides: problem, evidence, options, recommendation and next steps.
+**Assignment:** Map a request form to an API and reporting model, then define stewardship and rejection handling.
 
-**Clear condition:** State one decision request with owner and date; include risks and uncertain assumptions.
+**Do on your PC:**
 
-**Speaking drill:** Answer a challenge with a position, evidence and practical next step; record and review it.
+1. Create Mapping.xlsx with source/target names, types, mandatory flags, transformations and examples.
+2. Add owner, permitted values, null handling and rejected-record disposition.
+3. Draw lineage from form field through the operational record to a dashboard KPI.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Acceptance:** A field-level mapping, data dictionary, lineage diagram and critical-field quality rules.
 
-### Day 80 · Translate your experience
+**Advanced extension:** Identify a semantic mismatch that a simple type check would not detect.
 
-**Tools:** Docs, voice recorder. **Techniques:** STAR, evidence hierarchy, outcome framing.
+**Speaking:** Explain the system flow to a non-technical service user without unexplained technical terms.
 
-**Build:** Draft three truthful BA interview stories from your operations and project experience.
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-**Clear condition:** Distinguish your action from team action; use only figures you can explain and defend.
+### Day 54 · Specify privacy, access and controls
 
-**Speaking drill:** Answer a challenge with a position, evidence and practical next step; record and review it.
+**Tools:** Word, Excel, diagrams.net. **Techniques:** Data minimisation, retention, RBAC, least privilege, audit, threat/misuse scenarios.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Assignment:** Turn general privacy/security concerns into testable product requirements and access rules.
 
-### Day 81 · Lead a difficult conversation
+**Do on your PC:**
 
-**Tools:** Voice recorder, Docs. **Techniques:** Conflict resolution, active listening, negotiation.
+1. Classify fictional data fields and justify collection/retention needs.
+2. Build a role-permission matrix for customer, agent, supervisor and administrator.
+3. Write misuse cases and corresponding acceptance tests for access, export and audit.
 
-**Build:** Role-play a sponsor demanding auto-approval despite operational risk.
+**Acceptance:** An access matrix, data-classification register and five measurable control requirements; legal questions are assigned for qualified review.
 
-**Clear condition:** Acknowledge their goal, ask two probes, explain tradeoff and offer a controlled alternative.
+**Advanced extension:** Analyse a conflict between useful analytics, minimal data collection and user access needs.
 
-**Speaking drill:** Answer a challenge with a position, evidence and practical next step; record and review it.
+**Speaking:** Explain the system flow to a non-technical service user without unexplained technical terms.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-### Day 82 · Run a case interview
+### Day 55 · Automate analysis with Python and AI checks
 
-**Tools:** Docs, timer, whiteboard. **Techniques:** Structured problem solving, clarifying questions.
+**Tools:** Python, pandas, Jupyter or VS Code, AI assistant optional. **Techniques:** Reproducible analysis, data assertions, AI-assisted drafting, provenance, human validation.
 
-**Build:** Spend 30 minutes on a late-delivery case: clarify, structure, analyse and recommend.
+**Assignment:** Reproduce two SQL/Excel checks in Python and evaluate an AI-generated requirement summary against source evidence.
 
-**Clear condition:** State assumptions aloud; calculate one KPI correctly and explain a limitation.
+**Do on your PC:**
 
-**Speaking drill:** Answer a challenge with a position, evidence and practical next step; record and review it.
+1. Open the supplied Python starter in a local environment; install pandas if you choose the pandas route.
+2. Recreate row counts, duplicate checks and eligible KPI totals and compare with SQL.
+3. Use only fictional notes for an optional AI summary, then check every proposed requirement against the source.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Acceptance:** A rerunnable notebook/script, two assertions and a correction log; synthetic inputs and tool limitations are stated.
 
-### Day 83 · Speak with impact
+**Advanced extension:** Seed a subtle fabricated assumption in a draft and show how evidence review detects it.
 
-**Tools:** Voice recorder, slides. **Techniques:** Headline-first communication, pace, pauses.
+**Speaking:** Explain the system flow to a non-technical service user without unexplained technical terms.
 
-**Build:** Record your capstone briefing twice; emphasise the headline and explicit ask.
+**Primary reference:** [Python · official tutorial](https://docs.python.org/3/tutorial/)
 
-**Clear condition:** Compare clarity, audible volume, pace and conclusion with Day 1; choose three improvements.
+### Day 56 · Dungeon 08: integration and automation review
 
-**Speaking drill:** Answer a challenge with a position, evidence and practical next step; record and review it.
+**Tools:** Postman, Excel, Python, diagrams.net. **Techniques:** Contract review, reconciliation, human controls, exception handling.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Assignment:** Defend the API contract, mapping, governance and automated validation as a complete interface design.
 
-### Day 84 · Dungeon 12: mock panel
+**Do on your PC:**
 
-**Tools:** Slides, voice recorder. **Techniques:** Case defence, stakeholder Q&A.
+1. Assemble the interface pack with versioned field definitions.
+2. Run sample API checks and data assertions and retain results.
+3. Walk through failures and demonstrate how an operator can reconcile and recover safely.
 
-**Build:** Deliver a six-minute capstone demo and answer five challenging questions.
+**Acceptance:** A collection, contract, mapping and QA script with normal, rejection, timeout and duplicate scenarios.
 
-**Clear condition:** No unsupported impact claims; each answer gives a position, evidence and next action.
+**Advanced extension:** Explain how you would detect lost events or a partially applied update.
 
-**Speaking drill:** Answer a challenge with a position, evidence and practical next step; record and review it.
+**Speaking:** Explain the system flow to a non-technical service user without unexplained technical terms.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Primary reference:** [Postman · Send your first request](https://learning.postman.com/docs/getting-started/first-steps/sending-the-first-request/)
 
-### Day 85 · Package the portfolio
+### Day 57 · Plan the testing strategy
 
-**Tools:** GitHub, Markdown. **Techniques:** Portfolio storytelling, evidence organisation.
+**Tools:** Word, Excel, Jira. **Techniques:** V-model, unit/integration/system/UAT, regression, smoke, risk-based testing.
 
-**Build:** Create a readme for each of three case packs with problem, role, artifacts and limits.
+**Assignment:** Design a testing approach that connects business risk to coverage, environments, roles and evidence.
 
-**Clear condition:** Remove confidential data and label all simulated projects; links open correctly.
+**Do on your PC:**
 
-**Speaking drill:** Deliver a confident headline first; pause, support it with evidence and finish with an ask.
+1. Create Test_Strategy.md and a requirement-risk-test matrix.
+2. Separate technical integration checks from business acceptance scenarios.
+3. Define test data, environments, defect workflow and acceptance authority.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Acceptance:** A strategy with entry/exit criteria, ownership, test levels and risk priorities.
 
-### Day 86 · Audit the weak spots
+**Advanced extension:** Recommend a feasible test scope when the deadline forces a tradeoff.
 
-**Tools:** Excel, Docs. **Techniques:** Competency matrix, deliberate practice.
+**Speaking:** Defend a test outcome: business risk, evidence, recommendation and decision owner.
 
-**Build:** Repeat Day 1’s six-skill self-assessment using artifacts as evidence.
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-**Clear condition:** Identify the two weakest skills and perform one focused correction for each.
+### Day 58 · Design high-value test cases
 
-**Speaking drill:** Deliver a confident headline first; pause, support it with evidence and finish with an ask.
+**Tools:** Excel, Jira or test-case sheet. **Techniques:** Equivalence partitioning, boundary values, decision-table tests, state transitions, pairwise.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Assignment:** Write at least fifteen cases for request validation, routing, access and status changes.
 
-### Day 87 · Tailor your profile
+**Do on your PC:**
 
-**Tools:** Docs, GitHub. **Techniques:** Role mapping, CV evidence, skill matrix.
+1. Create a case sheet with preconditions, inputs, steps, expected result, requirement ID and risk.
+2. Derive boundary cases from field limits and decision-table rules.
+3. Add state-transition and pairwise examples and explain what each technique covers.
 
-**Build:** Map your portfolio to three target BA role descriptions and refine four truthful CV bullets.
+**Acceptance:** Positive, negative and boundary coverage linked to requirements and business risks.
 
-**Clear condition:** Every bullet supports a relevant requirement and avoids invented metrics or experience.
+**Advanced extension:** Show why test-count growth alone does not prove adequate risk coverage.
 
-**Speaking drill:** Deliver a confident headline first; pause, support it with evidence and finish with an ask.
+**Speaking:** Defend a test outcome: business risk, evidence, recommendation and decision owner.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-### Day 88 · Rehearse the final raid
+### Day 59 · Make tests reproducible
 
-**Tools:** Slides, voice recorder. **Techniques:** Demo rehearsal, objection handling.
+**Tools:** Postman, SQLite, Excel. **Techniques:** BDD/Gherkin, test-data design, contract testing, SQL assertions.
 
-**Build:** Rehearse a ten-minute end-to-end walkthrough and prepare five likely objections.
+**Assignment:** Build a repeatable test-data and API/query validation pack using synthetic records.
 
-**Clear condition:** Explain business need, process, requirements, data, tests and adoption in one connected story.
+**Do on your PC:**
 
-**Speaking drill:** Deliver a confident headline first; pause, support it with evidence and finish with an ask.
+1. Create a test-data matrix and save setup instructions.
+2. Translate three acceptance scenarios into Given-When-Then and Postman/SQL checks.
+3. Capture actual versus expected results and link discrepancies to defect IDs.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Acceptance:** Expected outputs and reproducible setup exist for normal, boundary, invalid and duplicate cases.
 
-### Day 89 · Prepare the next cycle
+**Advanced extension:** Design isolation/cleanup rules so rerunning the tests does not create misleading duplicate results.
 
-**Tools:** Docs, calendar. **Techniques:** Retrospective, learning backlog, sustainability.
+**Speaking:** Defend a test outcome: business risk, evidence, recommendation and decision owner.
 
-**Build:** Review completed artifacts and set a realistic 30-day continuation plan.
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-**Clear condition:** Choose three priorities with observable success criteria; plan rest and maintenance.
+### Day 60 · Boss 02: technical evidence gate
 
-**Speaking drill:** Deliver a confident headline first; pause, support it with evidence and finish with an ask.
+**Tools:** SQL, Power BI, Postman, Python, PowerPoint. **Techniques:** Data/integration/test traceability, reproducibility, critical review.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Assignment:** Submit a general BA evidence pack showing how requirements, data, interfaces and tests support a decision.
 
-### Day 90 · Boss 03: BA ascension
+**Do on your PC:**
 
-**Tools:** Portfolio, Slides, voice recorder. **Techniques:** Evidence-based defence, solution evaluation.
+1. Create Case_02_Data_Integration with data provenance, SQL, report screenshots and API artifacts.
+2. Run reconciliation and validation checks and store the results.
+3. Present the recommendation and explicitly identify residual risks and unanswered questions.
 
-**Build:** Ship three portfolio packs and record your final ten-minute BA case defence.
+**Acceptance:** A repeatable data analysis, contract, mapping and fifteen-case test suite with known limitations.
 
-**Clear condition:** Compare to Day 1; verify traceability, calculations, test evidence and communication; document gaps honestly.
+**Advanced extension:** Explain the consequence of one data-quality failure propagating into a business decision.
 
-**Speaking drill:** Deliver a confident headline first; pause, support it with evidence and finish with an ask.
+**Speaking:** Defend a test outcome: business risk, evidence, recommendation and decision owner.
 
-**Learn:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
 
-## Practice-data notes
+### Day 61 · Execute and triage UAT
 
-shipments.csv contains 124 synthetic rows: 120 base records, two exact repeated IDs and two additional records with repeated external references. The practice.sql view removes repeated shipment IDs, leaving 122 rows, and explicitly flags repeated business references. There are deliberate unmatched carriers, open deliveries and two deliveries dated before dispatch. Exclude open and invalid rows from delivery punctuality denominators. Decide and document how to treat unmatched carrier codes. Always reconcile the same rules in SQL, Excel and Power BI. SQL setup uses SQLite; Microsoft Learn examples use T-SQL.
+**Tools:** Excel, Jira, Postman. **Techniques:** Test execution, severity vs priority, defect lifecycle, retest, regression.
 
-## Storage and limitations
+**Assignment:** Execute the practice suite against mock rules/prototype and run a realistic defect triage.
 
-Your progress stays in this browser’s localStorage, without cloud sync. Clearing browser data deletes it. Export/import JSON to back up or transfer to another browser or site origin. The source code and hosting service do not store your personal completion data. A focus session is saved only when Log time is pressed.
+**Do on your PC:**
 
-Resource list checked 24 October 2026. Training resources may have their own paid/account restrictions. Enterprise SAP/Blue Yonder access is not required. This roadmap is an original learning design, not accreditation or a guarantee of employment.
+1. Run fifteen planned cases and log status and evidence paths.
+2. Create reproducible defect reports including steps, impact, environment and attachments.
+3. Retest corrected mock examples and select a regression subset using risk.
+
+**Acceptance:** Actual/expected evidence, clear severity/priority rationale and retest decisions; simulated results are labelled.
+
+**Advanced extension:** Defend differing severity and priority for a rare critical defect and a common minor issue.
+
+**Speaking:** Defend a test outcome: business risk, evidence, recommendation and decision owner.
+
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+
+### Day 62 · Evaluate release readiness
+
+**Tools:** Excel, Word. **Techniques:** Requirements coverage, residual risk, exit criteria, go/no-go, solution evaluation.
+
+**Assignment:** Recommend go, conditional go or no-go from the test evidence and business context.
+
+**Do on your PC:**
+
+1. Calculate requirement coverage, pass/fail/blocked counts and outstanding risk exposure.
+2. Check entry/exit criteria rather than relying only on pass percentage.
+3. Write a release recommendation with mitigations, owner and follow-up measure.
+
+**Acceptance:** Correct coverage calculations, blocker treatment, residual risks and named decision authority.
+
+**Advanced extension:** Identify a high pass-rate release that should still be rejected.
+
+**Speaking:** Defend a test outcome: business risk, evidence, recommendation and decision owner.
+
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+
+### Day 63 · Dungeon 09: quality defence
+
+**Tools:** PowerPoint, Excel, Jira. **Techniques:** UAT sign-off, defect negotiation, evidence-based judgement.
+
+**Assignment:** Chair a simulated business acceptance review and defend a conditional release decision.
+
+**Do on your PC:**
+
+1. Prepare a triage dashboard and decision pack.
+2. Role-play business, engineering and QA challenges to the recommendation.
+3. Record the decision and residual risks in a versioned sign-off template labelled simulation.
+
+**Acceptance:** Traceable evidence, unresolved defect ownership and explicit acceptance conditions without fabricated real sign-off.
+
+**Advanced extension:** Negotiate a workaround without disguising the underlying defect or transferring unowned risk.
+
+**Speaking:** Defend a test outcome: business risk, evidence, recommendation and decision owner.
+
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+
+### Day 64 · Plan adoption and organisational change
+
+**Tools:** Word, Excel, PowerPoint. **Techniques:** ADKAR, Kotter overview, change impact, readiness, stakeholder communication.
+
+**Assignment:** Design adoption support for customers, agents, managers and support teams.
+
+**Do on your PC:**
+
+1. Create a role-by-role before/after impact matrix.
+2. Map adoption barriers to awareness, desire, knowledge, ability and reinforcement actions.
+3. Produce a staged communication/training plan with owners and feedback channels.
+
+**Acceptance:** An impact/readiness matrix, communication plan, training plan and adoption measures.
+
+**Advanced extension:** Explain when training will not solve a process, incentive or capacity problem.
+
+**Speaking:** Teach the changed process with one normal example and one exception.
+
+**Primary reference:** [Microsoft Learn · Power Automate](https://learn.microsoft.com/en-us/training/powerplatform/power-automate)
+
+### Day 65 · Write operational knowledge
+
+**Tools:** Word, screenshots, PowerPoint. **Techniques:** SOPs, knowledge management, teach-back, support handover.
+
+**Assignment:** Create usable operating instructions and training for request submission, triage and escalation.
+
+**Do on your PC:**
+
+1. Capture your own prototype screens and annotate steps and expected outcomes.
+2. Write an SOP with trigger, roles, inputs, actions, exceptions and escalation.
+3. Create a five-slide training pack and test whether another simulated role can follow it.
+
+**Acceptance:** Versioned SOPs, normal/exception examples, support routes and three teach-back tasks.
+
+**Advanced extension:** Design maintenance ownership so the SOP does not become stale after a change.
+
+**Speaking:** Teach the changed process with one normal example and one exception.
+
+**Primary reference:** [Microsoft Learn · Power Automate](https://learn.microsoft.com/en-us/training/powerplatform/power-automate)
+
+### Day 66 · Plan a controlled release
+
+**Tools:** Excel, Word, diagrams.net. **Techniques:** Cutover, migration, reconciliation, rollback, hypercare, readiness gates.
+
+**Assignment:** Plan the release of a portal including sample data migration and a recovery path.
+
+**Do on your PC:**
+
+1. Create a timed cutover sheet with task owner, dependency and evidence.
+2. Map legacy-to-new sample records and reconcile counts/status totals.
+3. Draw rollback decision points and specify who can authorise them.
+
+**Acceptance:** A cutover checklist, data control totals, rollback criteria and a support/hypercare plan.
+
+**Advanced extension:** Explain a situation where technical rollback does not reverse a business action.
+
+**Speaking:** Teach the changed process with one normal example and one exception.
+
+**Primary reference:** [Microsoft Learn · Power Automate](https://learn.microsoft.com/en-us/training/powerplatform/power-automate)
+
+### Day 67 · Prioritise operational risks
+
+**Tools:** Excel, diagrams.net. **Techniques:** Risk matrix, FMEA, controls, failure modes, business continuity.
+
+**Assignment:** Analyse failure modes across process, data, integration, access and adoption.
+
+**Do on your PC:**
+
+1. Create a risk matrix and FMEA sheet using stated severity/occurrence/detection scales.
+2. Link preventive/detective/recovery controls to each major failure.
+3. Challenge the ranking with one low-frequency, high-impact scenario.
+
+**Acceptance:** A prioritised risk/control register with rationale, owners and residual risk; scoring limitations are stated.
+
+**Advanced extension:** Compare FMEA scores with a simple risk matrix and justify the final priority.
+
+**Speaking:** Teach the changed process with one normal example and one exception.
+
+**Primary reference:** [Microsoft Learn · Power Automate](https://learn.microsoft.com/en-us/training/powerplatform/power-automate)
+
+### Day 68 · Build a human-controlled workflow
+
+**Tools:** Power Automate Desktop or Python, Excel. **Techniques:** RPA/workflow triggers, conditions, approvals, audit logs, error queues.
+
+**Assignment:** Prototype a local request-routing workflow from sample input to a review queue and audit output.
+
+**Do on your PC:**
+
+1. Use a manual trigger and local sample files; map fields and validate them.
+2. Route a decision to a local review sheet or simulated approval step before writing an output record.
+3. Run four scenarios and inspect the audit/error logs without connecting live accounts.
+
+**Acceptance:** Normal, rejected, malformed and duplicate inputs produce expected sandbox results with a manual fallback.
+
+**Advanced extension:** Design recovery after a crash between approval and output writing.
+
+**Speaking:** Teach the changed process with one normal example and one exception.
+
+**Primary reference:** [Microsoft Learn · Power Automate](https://learn.microsoft.com/en-us/training/powerplatform/power-automate)
+
+### Day 69 · Measure realised value
+
+**Tools:** Excel, SQL, Word. **Techniques:** Benefits realisation, baseline/pilot design, A/B tests, leading/lagging indicators, guardrails.
+
+**Assignment:** Design a pilot to test request-resolution improvement and measure adoption and unintended effects.
+
+**Do on your PC:**
+
+1. Create a benefits register with owner, baseline collection and target hypotheses.
+2. Design a pilot comparison with sample-size and causal limitations.
+3. Build a measurement sheet with adoption, quality, speed and guardrail indicators.
+
+**Acceptance:** Metric definitions, eligibility, comparison strategy, observation windows and decision criteria are explicit.
+
+**Advanced extension:** Explain how seasonality, case mix or regression to the mean could mislead the evaluation.
+
+**Speaking:** Teach the changed process with one normal example and one exception.
+
+**Primary reference:** [Microsoft Learn · Power Automate](https://learn.microsoft.com/en-us/training/powerplatform/power-automate)
+
+### Day 70 · Dungeon 10: adoption launch review
+
+**Tools:** PowerPoint, Word, Excel. **Techniques:** Readiness, training, cutover, benefits and operational control.
+
+**Assignment:** Present an evidence-based launch plan integrating people, process, data, support and measurement.
+
+**Do on your PC:**
+
+1. Assemble the launch pack and run a simulated readiness checklist.
+2. Identify three cross-artifact inconsistencies and resolve them.
+3. Record a launch briefing including rollback triggers and the first post-launch decision.
+
+**Acceptance:** A consistent SOP/training/cutover/risk/benefits pack with named owners and review dates.
+
+**Advanced extension:** Respond to low adoption even though the technical rollout passed all tests.
+
+**Speaking:** Teach the changed process with one normal example and one exception.
+
+**Primary reference:** [Microsoft Learn · Power Automate](https://learn.microsoft.com/en-us/training/powerplatform/power-automate)
+
+### Day 71 · Frame an independent capstone
+
+**Tools:** Word, Excel, diagrams.net. **Techniques:** Problem discovery, chartering, scope, SMART measures, hypothesis.
+
+**Assignment:** Choose a fictional e-commerce checkout, course-booking platform or internal service portal; frame an end-to-end change.
+
+**Do on your PC:**
+
+1. Create Portfolio/Case_03_Capstone and select one of the three general scenarios.
+2. Write the problem, evidence gaps, objectives, scope and constraints from scratch.
+3. Create an artifact plan covering discovery through solution evaluation.
+
+**Acceptance:** A one-page charter with a clear decision, affected users, measurable outcomes and bounded scope.
+
+**Advanced extension:** Frame an alternative problem explanation before choosing a solution.
+
+**Speaking:** Pitch your chosen option: problem, evidence, alternatives, risk and explicit ask.
+
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+
+### Day 72 · Discover the capstone need
+
+**Tools:** Word, diagrams.net, Excel. **Techniques:** Stakeholder analysis, elicitation, journey/process mapping, evidence synthesis.
+
+**Assignment:** Build new discovery artifacts for the selected capstone without copying assumptions from the training case.
+
+**Do on your PC:**
+
+1. Prepare and role-play two contrasting stakeholder interviews.
+2. Create an affinity map and an as-is model with failures and handoffs.
+3. Link each proposed need to its evidence and identify the three highest-risk unknowns.
+
+**Acceptance:** A stakeholder plan, labelled simulated evidence, as-is journey/process and unresolved question log.
+
+**Advanced extension:** Specify a cheap validation activity that could disprove the preferred direction.
+
+**Speaking:** Pitch your chosen option: problem, evidence, alternatives, risk and explicit ask.
+
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+
+### Day 73 · Appraise solution options
+
+**Tools:** Excel, Word. **Techniques:** Options analysis, financial modelling, feasibility, sensitivity, risk.
+
+**Assignment:** Compare at least three capstone options across business, operational, technical and financial feasibility.
+
+**Do on your PC:**
+
+1. Create an options sheet with criteria, weights and assumptions.
+2. Model implementation/operating costs and benefit scenarios with ROI/payback or NPV where meaningful.
+3. Explain why the highest numerical score may still require a conditional decision.
+
+**Acceptance:** A transparent scoring model, costs/benefits, sensitivity analysis and a defensible recommendation.
+
+**Advanced extension:** Change budget, demand or a risk assumption and reassess the recommendation.
+
+**Speaking:** Pitch your chosen option: problem, evidence, alternatives, risk and explicit ask.
+
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+
+### Day 74 · Specify the capstone solution
+
+**Tools:** Word, Jira or Excel, diagrams.net. **Techniques:** Requirements architecture, RTM, rules, stories, NFRs, process/data models.
+
+**Assignment:** Write a connected specification set for the selected option.
+
+**Do on your PC:**
+
+1. Create requirements and story catalogues with IDs, sources, priorities and acceptance criteria.
+2. Draw the to-be process, data model and a key interaction/state view.
+3. Build an RTM and document key design decisions and dependencies.
+
+**Acceptance:** At least fifteen requirements, eight stories and linked rules/models/tests with no orphan critical need.
+
+**Advanced extension:** Assess a late requirement change across process, UI, data, integration and tests.
+
+**Speaking:** Pitch your chosen option: problem, evidence, alternatives, risk and explicit ask.
+
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+
+### Day 75 · Build the capstone data evidence
+
+**Tools:** SQL, Excel, Python optional. **Techniques:** Data profiling, analytical SQL, model validation, statistical reasoning.
+
+**Assignment:** Answer three capstone decision questions using synthetic data with documented provenance and limitations.
+
+**Do on your PC:**
+
+1. Use the service-request fixture or create a small fictional dataset appropriate to the chosen case.
+2. Profile, clean and model it before writing the three analytical queries.
+3. Reconcile results to a manual sample and explain what the data cannot establish.
+
+**Acceptance:** Rerunnable queries, explicit eligibility, quality assertions and reconciled findings.
+
+**Advanced extension:** Add a new data-quality defect and show that an assertion catches it.
+
+**Speaking:** Pitch your chosen option: problem, evidence, alternatives, risk and explicit ask.
+
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+
+### Day 76 · Prototype the recommendation
+
+**Tools:** Figma or Penpot, Power BI, Postman. **Techniques:** Prototyping, KPI design, API contracts, usability and feasibility.
+
+**Assignment:** Create a decision view and the key user interaction or interface for the capstone.
+
+**Do on your PC:**
+
+1. Build linked screens or a Power BI decision view with named stakeholder questions.
+2. Define the key data/API contract and error behaviour where relevant.
+3. Run three simulated usability/acceptance tasks and record revisions.
+
+**Acceptance:** A prototype/report with three tested user tasks and a clear connection to requirements and value.
+
+**Advanced extension:** Choose an accessibility, security or latency constraint and show its effect on the design.
+
+**Speaking:** Pitch your chosen option: problem, evidence, alternatives, risk and explicit ask.
+
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+
+### Day 77 · Dungeon 11: capstone architecture review
+
+**Tools:** Word, PowerPoint, diagrams.net. **Techniques:** Cross-model consistency, design critique, tradeoff analysis.
+
+**Assignment:** Review the capstone from sponsor, user, developer, data and QA perspectives.
+
+**Do on your PC:**
+
+1. Trace three journeys from objective through requirement, design, data and acceptance.
+2. Review models for consistent names, lifecycle states and ownership.
+3. Deliver a six-minute architecture/analysis review with one explicit decision request.
+
+**Acceptance:** Three corrected inconsistencies, prioritised residual risks and a connected evidence index.
+
+**Advanced extension:** Identify a risk that spans teams and assign a realistic decision/mitigation owner.
+
+**Speaking:** Pitch your chosen option: problem, evidence, alternatives, risk and explicit ask.
+
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+
+### Day 78 · Test the independent solution
+
+**Tools:** Excel, Postman, SQL. **Techniques:** Risk-based UAT, BDD, boundary/negative testing, defect triage.
+
+**Assignment:** Execute a capstone acceptance suite against the prototype/mock rules and interface examples.
+
+**Do on your PC:**
+
+1. Derive cases from critical requirements, decision tables and state transitions.
+2. Execute normal, boundary, invalid, access and duplicate scenarios.
+3. Store evidence, log defects and update RTM coverage and readiness recommendations.
+
+**Acceptance:** At least twelve cases, actual/expected evidence, defects and risk-based retest/exit criteria.
+
+**Advanced extension:** Explain which untested condition could still invalidate the recommendation.
+
+**Speaking:** Answer a challenge with a position, evidence and practical next step; record and review it.
+
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+
+### Day 79 · Recommend and measure the change
+
+**Tools:** PowerPoint, Excel, Word. **Techniques:** Executive storytelling, option tradeoffs, benefits realisation, solution evaluation.
+
+**Assignment:** Create a sponsor-ready recommendation supported by capstone artifacts and a post-launch measurement plan.
+
+**Do on your PC:**
+
+1. Build slides for problem, evidence, options, recommendation and delivery/evaluation.
+2. Add costs, benefits, risks and a pilot/guardrail measurement plan.
+3. Record a five-minute briefing that connects evidence to the requested decision.
+
+**Acceptance:** Five clear slides, explicit uncertainty, a decision request and measurable next steps.
+
+**Advanced extension:** Present the same recommendation to an executive, developer and end user using different levels of detail.
+
+**Speaking:** Answer a challenge with a position, evidence and practical next step; record and review it.
+
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+
+### Day 80 · Communicate evidence truthfully
+
+**Tools:** Word, PC voice recorder. **Techniques:** STAR, structured narratives, evidence hierarchy, concise communication.
+
+**Assignment:** Write three interview/project stories using only work completed in this simulated learning programme.
+
+**Do on your PC:**
+
+1. Create stories for discovery, a data-quality problem and a requirements tradeoff.
+2. Link each claim to an artifact or verified calculation.
+3. Record each story within two minutes and remove unsupported results.
+
+**Acceptance:** Each story identifies the scenario as a learning project and distinguishes actions, outputs and unproven business impact.
+
+**Advanced extension:** Handle a question about experience gaps without claiming simulated work as paid employment.
+
+**Speaking:** Answer a challenge with a position, evidence and practical next step; record and review it.
+
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+
+### Day 81 · Resolve conflict and influence
+
+**Tools:** PC voice recorder, Word. **Techniques:** Negotiation, active listening, stakeholder conflict, escalation, decision rights.
+
+**Assignment:** Role-play conflicting scope, priority and quality demands and reach a reasoned next step.
+
+**Do on your PC:**
+
+1. Write sponsor-versus-engineering, user-versus-security and deadline-versus-quality scenarios.
+2. Record both sides and practise summarising the underlying need before proposing options.
+3. Update the decision log and draft a concise follow-up note.
+
+**Acceptance:** Three scenarios with probes, options, tradeoffs, an owner and a documented decision/escalation.
+
+**Advanced extension:** Respond when the highest-power stakeholder rejects the evidence without publicly escalating the conflict.
+
+**Speaking:** Answer a challenge with a position, evidence and practical next step; record and review it.
+
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+
+### Day 82 · Solve an unfamiliar BA case
+
+**Tools:** Word, Excel, diagrams.net, timer. **Techniques:** Case structuring, clarifying questions, estimation, data interpretation.
+
+**Assignment:** Complete an unseen-style e-commerce, booking or service-process case under time constraints.
+
+**Do on your PC:**
+
+1. Choose a different domain from the capstone and set a 45-minute timer.
+2. Write assumptions and organise process, people, data and system hypotheses.
+3. Produce a small calculation/model and a three-minute recommendation with limitations.
+
+**Acceptance:** A structured problem tree, useful clarifying questions, one checked calculation and an actionable recommendation.
+
+**Advanced extension:** Change one key assumption halfway through and explain how the structure adapts.
+
+**Speaking:** Answer a challenge with a position, evidence and practical next step; record and review it.
+
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+
+### Day 83 · Write and present for decisions
+
+**Tools:** Word, PowerPoint, PC recorder. **Techniques:** Executive summaries, status reporting, decision records, storytelling, visual communication.
+
+**Assignment:** Turn a detailed analysis into an executive brief, project update and technical handoff.
+
+**Do on your PC:**
+
+1. Write a one-page executive summary and a status update with progress, risk, ask and next step.
+2. Create a technical handoff linking requirement IDs, rules, interfaces and tests.
+3. Record a clear briefing and review structure, pace, precision and decision request.
+
+**Acceptance:** Three audience-specific outputs with consistent facts, explicit actions and readable visuals.
+
+**Advanced extension:** Remove 30% of the words while preserving the evidence needed to make the decision.
+
+**Speaking:** Answer a challenge with a position, evidence and practical next step; record and review it.
+
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+
+### Day 84 · Dungeon 12: professional panel
+
+**Tools:** PowerPoint, Word, Excel. **Techniques:** Case defence, critical reasoning, stakeholder Q&A.
+
+**Assignment:** Present the full capstone and answer business, data, delivery and technical challenges.
+
+**Do on your PC:**
+
+1. Prepare a six-minute demo and a fifteen-question panel bank.
+2. Record answers from sponsor, engineering, QA and user viewpoints.
+3. Check every numerical or impact claim against the evidence pack.
+
+**Acceptance:** A coherent presentation, five challenging answers and a correction log for weaknesses found.
+
+**Advanced extension:** Defend a tradeoff where no option satisfies all stakeholder preferences.
+
+**Speaking:** Answer a challenge with a position, evidence and practical next step; record and review it.
+
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+
+### Day 85 · Package a reproducible portfolio
+
+**Tools:** GitHub, Markdown, PDF export. **Techniques:** Evidence organisation, versioning, case-study writing, reproducibility.
+
+**Assignment:** Publish or locally prepare three general learning case packs with clear navigation and limitations.
+
+**Do on your PC:**
+
+1. Create README files for discovery/design, data/integration and capstone packs.
+2. Export readable models, reports and document snapshots alongside editable originals.
+3. Test the file links and reproduce the SQL/data checks from a clean practice folder.
+
+**Acceptance:** All artifact links open, data is synthetic, setup steps work and simulated work is labelled.
+
+**Advanced extension:** Have a reviewer reconstruct one finding using only the portfolio instructions.
+
+**Speaking:** Deliver a confident headline first; pause, support it with evidence and finish with an ask.
+
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+
+### Day 86 · Audit professional competence
+
+**Tools:** Excel, Word, all saved artifacts. **Techniques:** Competency assessment, deliberate practice, gap analysis, verification.
+
+**Assignment:** Assess strategy, elicitation, requirements, modelling, Agile, data, integration, testing, change and communication against actual work.
+
+**Do on your PC:**
+
+1. Use the Skill Atlas to inspect coverage and link each area to artifacts.
+2. Attempt an explanation and a practical task without consulting notes for each major area.
+3. Correct the two weakest areas and record the difference in the artifacts.
+
+**Acceptance:** An evidence-linked competence matrix and two substantive corrections rather than self-ratings alone.
+
+**Advanced extension:** Separate familiarity, independent execution and defensible professional judgement in the assessment.
+
+**Speaking:** Deliver a confident headline first; pause, support it with evidence and finish with an ask.
+
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+
+### Day 87 · Position the portfolio for general BA roles
+
+**Tools:** Word, Excel, GitHub. **Techniques:** Role analysis, competency mapping, evidence-based CV/project descriptions.
+
+**Assignment:** Map the portfolio to general, IT and data BA role requirements without assuming any employment background.
+
+**Do on your PC:**
+
+1. Create a comparison of three role types using documented example responsibilities.
+2. Write four project bullets that identify learning-project scope and verifiable outputs.
+3. Link each claimed technique/tool to a portfolio artifact.
+
+**Acceptance:** A role/skill matrix, truthful project descriptions and a focused learning-gap plan.
+
+**Advanced extension:** Explain where the current evidence is insufficient for a specialist role and design the next practice task.
+
+**Speaking:** Deliver a confident headline first; pause, support it with evidence and finish with an ask.
+
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+
+### Day 88 · Rehearse the final defence
+
+**Tools:** PowerPoint, PC recorder, Excel. **Techniques:** End-to-end demonstration, objection handling, change impact.
+
+**Assignment:** Rehearse a ten-minute case defence and respond to a new requirement or data-quality challenge.
+
+**Do on your PC:**
+
+1. Run the complete presentation without editing the artifacts mid-demo.
+2. Introduce one scope change and one data defect, then trace the effects.
+3. Capture the weakest answer and improve its evidence, structure and next-step recommendation.
+
+**Acceptance:** Problem, options, requirements, design, data, tests and adoption form one evidence chain.
+
+**Advanced extension:** Complete a live SQL check or rule-table walkthrough while explaining the business meaning.
+
+**Speaking:** Deliver a confident headline first; pause, support it with evidence and finish with an ask.
+
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+
+### Day 89 · Plan continuous development
+
+**Tools:** Excel, Word, calendar. **Techniques:** Retrospective, learning backlog, capability roadmap, professional judgement.
+
+**Assignment:** Review the full programme and set a substantive next cycle based on evidence gaps and target role needs.
+
+**Do on your PC:**
+
+1. Compare current artifacts and explanations with Day 1.
+2. Create a 30-day backlog for the weakest technical, analytical and communication areas.
+3. Define a weekly review routine and maintenance plan for templates and portfolio files.
+
+**Acceptance:** A prioritised continuation plan with practical tasks, review criteria and sustainable study capacity.
+
+**Advanced extension:** Choose one advanced extension such as deeper SQL, BPMN, product analytics, accessibility or business architecture and define a demonstrable output.
+
+**Speaking:** Deliver a confident headline first; pause, support it with evidence and finish with an ask.
+
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+
+### Day 90 · Boss 03: professional BA defence
+
+**Tools:** Portfolio, PowerPoint, SQL, Postman, PC recorder. **Techniques:** Integrated business analysis, technical validation, solution evaluation.
+
+**Assignment:** Defend three complete case packs and demonstrate a practical analysis technique live.
+
+**Do on your PC:**
+
+1. Open the three portfolio indexes and verify the core artifacts and links.
+2. Present the capstone, answer the panel questions and rerun a SQL/API/rule check.
+3. Record strengths, limitations and the next professional learning goals; claim only outcomes supported by evidence.
+
+**Acceptance:** A ten-minute presentation, fifteen-minute Q&A, one reproducible technical check and an honest evidence-linked competence review.
+
+**Advanced extension:** Evaluate an unexpected stakeholder, scope or data challenge without relying on a memorised answer.
+
+**Speaking:** Deliver a confident headline first; pause, support it with evidence and finish with an ask.
+
+**Primary reference:** [IIBA · Business Analysis Standard](https://www.iiba.org/knowledgehub/the-business-analysis-standard/)
+
+## Data controls and storage
+
+The fictional fixture has 185 raw rows, 182 unique request IDs and 3 repeated IDs. It deliberately includes 2 invalid resolution dates, 3 unknown team references and 1 status/date conflict. Exclude open/invalid resolutions from punctuality denominators. Flag repeated external references rather than silently deleting them. practice_checks.json records all expected controls; qa_starter.py and practice.sql reproduce the key checks. Reconcile Excel and Power BI under the SAME rules.
+
+Progress remains in this browser with JSON export/import. The app has no sign-in requirement, cloud sync or automation server. Content updates preserve completion history: review revised assignments against your artifacts before treating old completion as proof of current competence.
+
+The track covers core tool families and transferable techniques with advanced extensions. Vendor specialisms and continuing professional expertise require further work. Resource links checked 24 October 2026; some resources require accounts/licences.
